@@ -1,0 +1,21 @@
+{
+    "name": "sherwood-forest",
+    "displayName": "Sherwood Forest",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Sherwood Forest",
+                "uiTheme": "vs-dark",
+                "path": "./themes/sherwood-forest-color-theme.json"
+            }
+        ]
+    }
+}
