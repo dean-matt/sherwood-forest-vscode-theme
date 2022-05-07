@@ -10,7 +10,7 @@
 		"activityBarBadge.foreground": "#000000",
 		//
 		// Badges
-		"badge.background": "#c6b571",
+		"badge.background": "#ecdb96",
 		"badge.foreground": "#000000",
 		//
 		// Editor
@@ -20,6 +20,16 @@
 		"editor.inactiveSelectionBackground": "#ffffff30",
 		"editor.selectionBackground": "#ffffff60",
 		"editor.selectionHighlightBackground": "#ffffff30",
+		//
+		// Lists
+		"list.activeSelectionBackground": "#6d8822",
+		"list.activeSelectionIconForeground": "#ffffff",
+		"list.dropBackground": "#424e22",
+		"list.errorForeground": "#ea2525",
+		"list.focusOutline": "#ffffff60",
+		"list.hoverBackground": "#ffffff30",
+		"list.inactiveSelectionBackground": "#424e22",
+		"list.warningForeground": "#dac800",
 		//
 		// Side bar
 		"sideBar.background": "#112517",
