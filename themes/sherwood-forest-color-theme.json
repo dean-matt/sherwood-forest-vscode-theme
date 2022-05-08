@@ -35,7 +35,7 @@
 		"list.warningForeground": "#dac800",
 		//
 		// Editor Widgets
-		"editorWidget.background": "#1f3626",
+		"editorWidget.background": "#1b2d20",
 		"editorWidget.border": "#ffffff30",
 		"editorWidget.foreground": "#e4e4e4",
 		//
@@ -45,7 +45,7 @@
 		"input.placeholderForeground": "#a6a6a6",
 		//
 		// Menus
-		"menu.background": "#1f3626",
+		"menu.background": "#1b2d20",
 		"menu.foreground": "#cccccc",
 		//
 		// Side bar
