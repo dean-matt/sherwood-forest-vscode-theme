@@ -31,6 +31,19 @@
 		"list.inactiveSelectionBackground": "#424e22",
 		"list.warningForeground": "#dac800",
 		//
+		// Editor Widgets
+		"editorWidget.background": "#1f3626",
+		"editorWidget.border": "#ffffff30",
+		"editorWidget.foreground": "#e4e4e4",
+		//
+		// Inputs
+		"input.background": "#00000070",
+		"input.foreground": "#e4e4e4",
+		//
+		// Menus
+		"menu.background": "#1f3626",
+		"menu.foreground": "#cccccc",
+		//
 		// Side bar
 		"sideBar.background": "#112517",
 		"sideBarSectionHeader.background": "#ffffff10",
