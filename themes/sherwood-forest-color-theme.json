@@ -42,6 +42,7 @@
 		// Inputs
 		"input.background": "#00000070",
 		"input.foreground": "#e4e4e4",
+		"input.placeholderForeground": "#a6a6a6",
 		//
 		// Menus
 		"menu.background": "#1f3626",
