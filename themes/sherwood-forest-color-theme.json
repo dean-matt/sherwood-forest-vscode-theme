@@ -21,6 +21,9 @@
 		"editor.selectionBackground": "#ffffff60",
 		"editor.selectionHighlightBackground": "#ffffff30",
 		//
+		// Focus
+		"focusBorder": "#ffffff60",
+		//
 		// Lists
 		"list.activeSelectionBackground": "#6d8822",
 		"list.activeSelectionIconForeground": "#ffffff",
