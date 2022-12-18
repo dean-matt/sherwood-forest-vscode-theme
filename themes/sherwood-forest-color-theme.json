@@ -77,6 +77,11 @@
 		"menu.background": "#1b3923",
 		"menu.foreground": "#cccccc",
 		//
+		// Notifications
+		"notifications.background": "#1b2d20",
+		"notifications.border": "#1b3923",
+		"notifications.foreground": "#ffffff",
+		//
 		// Scrollbar
 		"scrollbarSlider.background": "#ffffff60",
 		//
