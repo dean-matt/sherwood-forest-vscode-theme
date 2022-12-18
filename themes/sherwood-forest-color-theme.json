@@ -6,11 +6,11 @@
 		"activityBar.background": "#1b3923",
 		"activityBar.foreground": "#e4e4e4",
 		"activityBar.inactiveForeground": "#e4e4e4",
-		"activityBarBadge.background": "#ffc400",
+		"activityBarBadge.background": "#FFBA0A",
 		"activityBarBadge.foreground": "#000000",
 		//
 		// Badges
-		"badge.background": "#ecdb96",
+		"badge.background": "#FFBA0A",
 		"badge.foreground": "#000000",
 		//
 		// Dropdown
@@ -67,6 +67,18 @@
 		"sideBarSectionHeader.background": "#ffffff10",
 		"sideBarSectionHeader.border": "#ffffff33",
 		"sideBarTitle.foreground": "#bbbbbb",
+		//
+		// Status Bar
+		"statusBar.background": "#522E00",
+		"statusBar.foreground": "#ffffff",
+		"statusBar.focusBorder": "#FFBA0A",
+		"statusBar.noFolderBackground": "#827564",
+		"statusBar.noFolderForeground": "#ffffff",
+		"statusBar.debuggingBackground": "#E9724C",
+		"statusBar.debuggingForeground": "#ffffff",
+		"statusBarItem.remoteBackground": "#7A4500",
+		"statusBarItem.remoteForeground": "#ffffff",
+		"statusBarItem.focusBorder": "#FFBA0A",
 		//
 		// Tabs
 		"editorGroupHeader.tabsBackground": "#0c1e0d",
