@@ -22,16 +22,17 @@
 		"editor.selectionHighlightBackground": "#ffffff60",
 		//
 		// Focus
-		"focusBorder": "#314CB6",
+		"focusBorder": "#FFBA0A",
 		//
 		// Lists
-		"list.activeSelectionBackground": "#314CB6",
-		"list.activeSelectionIconForeground": "#ffffff",
-		"list.dropBackground": "#314CB6",
+		"list.activeSelectionBackground": "#CC9200",
+		"list.activeSelectionForeground": "#1b3923",
+		"list.dropBackground": "#CC9200",
 		"list.errorForeground": "#ff7472",
-		"list.focusOutline": "#91ADC2",
+		"list.focusOutline": "#FFBA0A",
 		"list.hoverBackground": "#ffffff30",
-		"list.inactiveSelectionBackground": "#314CB6",
+		"list.inactiveSelectionBackground": "#CC9200",
+		"list.inactiveSelectionForeground": "#1b3923",
 		"list.warningForeground": "#F5E900",
 		//
 		// Editor Widgets
