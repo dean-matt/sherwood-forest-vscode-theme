@@ -46,9 +46,14 @@
 		"editorWidget.foreground": "#e4e4e4",
 		//
 		// Inputs
-		"input.background": "#00000070",
+		"input.background": "#04140a",
 		"input.foreground": "#e4e4e4",
 		"input.placeholderForeground": "#a6a6a6",
+		"inputOption.activeBackground": "#FFBA0A",
+		"inputOption.activeForeground": "#04140a",
+		"inputValidation.errorBackground": "#ff7472",
+		"inputValidation.errorBorder": "#ff7472",
+		"inputValidation.errorForeground": "#ffffff",
 		//
 		// Menus
 		"menu.background": "#1b3923",
