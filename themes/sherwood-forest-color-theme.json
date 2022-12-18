@@ -36,7 +36,7 @@
 		// Editor
 		"editor.background": "#04140a",
 		"editor.foreground": "#ffffffdd",
-		"editor.hoverHighlightBackground": "#00ff00",
+		"editor.hoverHighlightBackground": "#FFBA0A",
 		"editor.inactiveSelectionBackground": "#ffffff60",
 		"editor.selectionBackground": "#ffffff60",
 		"editor.selectionHighlightBackground": "#ffffff60",
