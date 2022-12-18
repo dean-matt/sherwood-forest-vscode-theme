@@ -16,10 +16,10 @@
 		// Editor
 		"editor.background": "#04140a",
 		"editor.foreground": "#ffffffdd",
-		"editor.hoverHighlightBackground": "#ffffff30",
-		"editor.inactiveSelectionBackground": "#ffffff30",
+		"editor.hoverHighlightBackground": "#00ff00",
+		"editor.inactiveSelectionBackground": "#ffffff60",
 		"editor.selectionBackground": "#ffffff60",
-		"editor.selectionHighlightBackground": "#ffffff30",
+		"editor.selectionHighlightBackground": "#ffffff60",
 		//
 		// Focus
 		"focusBorder": "#ffffff60",
