@@ -13,6 +13,11 @@
 		"badge.background": "#ecdb96",
 		"badge.foreground": "#000000",
 		//
+		// Dropdown
+		"dropdown.background": "#1b3923",
+		"dropdown.listBackground": "#ffffff10",
+		"dropdown.foreground": "#ffffffdd",
+		//
 		// Editor
 		"editor.background": "#04140a",
 		"editor.foreground": "#ffffffdd",
@@ -26,13 +31,13 @@
 		//
 		// Lists
 		"list.activeSelectionBackground": "#CC9200",
-		"list.activeSelectionForeground": "#1b3923",
+		"list.activeSelectionForeground": "#ffffff",
 		"list.dropBackground": "#CC9200",
 		"list.errorForeground": "#ff7472",
 		"list.focusOutline": "#FFBA0A",
 		"list.hoverBackground": "#ffffff30",
 		"list.inactiveSelectionBackground": "#CC9200",
-		"list.inactiveSelectionForeground": "#1b3923",
+		"list.inactiveSelectionForeground": "#ffffff",
 		"list.warningForeground": "#F5E900",
 		//
 		// Editor Widgets
@@ -66,6 +71,8 @@
 		// Title bar
 		"titleBar.activeBackground": "#1e502d",
 		"titleBar.inactiveBackground": "#1b3923",
+
+		// "icon.foreground": "#ff0000"
 	},
 	"tokenColors": [
 		{
