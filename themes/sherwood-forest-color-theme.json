@@ -127,7 +127,7 @@
 		"welcomePage.progress.foreground": "#FFBA0A",
 		//
 		// Widgets
-		"widget.shadow": "#000000"
+		"widget.shadow": "#000000",
 	},
 	"tokenColors": [
 		{
