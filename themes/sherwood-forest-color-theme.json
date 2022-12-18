@@ -46,6 +46,9 @@
 		"editorWidget.border": "#ffffff30",
 		"editorWidget.foreground": "#e4e4e4",
 		//
+		// Focus
+		"focusBorder": "#FFBA0A",
+		//
 		// Inputs
 		"input.background": "#04140a",
 		"input.foreground": "#e4e4e4",
