@@ -30,6 +30,9 @@
 		"dropdown.listBackground": "#ffffff10",
 		"dropdown.foreground": "#ffffffdd",
 		//
+		// Descriptions
+		"descriptionForeground": "#ffffff",
+		//
 		// Editor
 		"editor.background": "#04140a",
 		"editor.foreground": "#ffffffdd",
