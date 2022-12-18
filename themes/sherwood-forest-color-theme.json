@@ -40,6 +40,13 @@
 		"editor.inactiveSelectionBackground": "#ffffff60",
 		"editor.selectionBackground": "#ffffff60",
 		"editor.selectionHighlightBackground": "#ffffff60",
+		"editorBracketHighlight.foreground1": "#39B463",
+		"editorBracketHighlight.foreground2": "#F1D222",
+		"editorBracketHighlight.foreground3": "#F55CB1",
+		"editorBracketHighlight.foreground4": "#39B463",
+		"editorBracketHighlight.foreground5": "#F1D222",
+		"editorBracketHighlight.foreground6": "#F55CB1",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#F1D222",
 		//
 		// Editor Widgets
 		"editorWidget.background": "#1b2d20",
@@ -131,20 +138,136 @@
 	},
 	"tokenColors": [
 		{
-			"name": "Comment",
+			"name": "Battleship Grey",
 			"scope": [
+				"meta.tag",
 				"comment",
-				"punctuation.definition.comment"
+				"punctuation.definition.comment",
+				"punctuation.definition.tag",
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#546E7A"
+				"foreground": "#8A8A8A"
+			}
+		},
+		{
+			"name": "Light Grey",
+			"scope": [
+				"punctuation.terminator.statement",
+				"punctuation.accessor",
+				"keyword.operator",
+			],
+			"settings": {
+				"foreground": "#CCCCCC"
+			}
+		},
+		{
+			"name": "Amaranth Red",
+			"scope": [
+				// "punctuation.definition",
+				"string",
+				"string.quoted",
+				"string.interpolated"
+			],
+			"settings": {
+				"foreground": "#D94558"
+			}
+		},
+		{
+			"name": "Burlywood Brown",
+			"scope": [
+				"constant.other.color",
+				// "punctuation",
+				"punctuation.separator.inheritance.php",
+				"punctuation.definition.tag.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"punctuation.section.embedded",
+				"keyword.other.template",
+				"keyword.other.substitution",
+				"constant.language",
+				"support.constant",
+				"constant.escape",
+				"variable.parameter",
+				"entity.other.attribute-name",
+				"support.type",
+				"support.class",
+				"support.other.namespace.use.php",
+				"meta.use.php",
+				"support.other.namespace.php",
+				"markup.changed.git_gutter",
+				"support.type.sys-types",
+			],
+			"settings": {
+				"foreground": "#D4AE7D"
+			}
+		},
+		{
+			"name": "Orange Yellow",
+			"scope": [
+				// "entity.name",
+				"entity.name.type",
+
+			],
+			"settings": {
+				"foreground": "#f0ca67"
+			}
+		},
+		{
+			"name": "French Mauve",
+			"scope": [
+				"entity.name.function",
+
+			],
+			"settings": {
+				"foreground": "#C874D9"
+			}
+		},
+		{
+			"name": "Granny Smith Apple Green",
+			"scope": [
+				"constant.numeric",
+				"constant.character",
+			],
+			"settings": {
+				"foreground": "#AFDC97"
+			}
+		},
+		{
+			"name": "Cambridge Green",
+			"scope": [
+				// "entity.name.variable.field.cs",
+				"entity.name.variable",
+				"variable",
+				"meta.preprocessor",
+
+			],
+			"settings": {
+				"foreground": "#9BBFAC"
+			}
+		},
+		{
+			"name": "Sea Green",
+			"scope": [
+				"entity.name.tag",
+				// "keyword",
+				"keyword.control",
+				"keyword.other.unit",
+				"keyword.other",
+				"storage.type",
+				"storage.modifier",
+				"keyword.other.class",
+				"keyword.type",
+				"keyword.preprocessor",
+				// "source.cs",
+
+			],
+			"settings": {
+				"foreground": "#399363"
 			}
 		},
 		{
 			"name": "Variables",
 			"scope": [
-				"variable",
 				"string constant.other.placeholder"
 			],
 			"settings": {
@@ -154,10 +277,10 @@
 		{
 			"name": "Colors",
 			"scope": [
-				"constant.other.color"
+				"constant.other.color" // What is this??
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#00ff00"
 			}
 		},
 		{
@@ -171,40 +294,8 @@
 			}
 		},
 		{
-			"name": "Keyword, Storage",
-			"scope": [
-				"keyword",
-				"storage.type",
-				"storage.modifier"
-			],
-			"settings": {
-				"foreground": "#C792EA"
-			}
-		},
-		{
-			"name": "Operator, Misc",
-			"scope": [
-				"keyword.control",
-				"constant.other.color",
-				"punctuation",
-				"meta.tag",
-				"punctuation.definition.tag",
-				"punctuation.separator.inheritance.php",
-				"punctuation.definition.tag.html",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
-				"punctuation.section.embedded",
-				"keyword.other.template",
-				"keyword.other.substitution"
-			],
-			"settings": {
-				"foreground": "#89DDFF"
-			}
-		},
-		{
 			"name": "Tag",
 			"scope": [
-				"entity.name.tag",
 				"meta.tag.sgml",
 				"markup.deleted.git_gutter"
 			],
@@ -215,7 +306,6 @@
 		{
 			"name": "Function, Special Method",
 			"scope": [
-				"entity.name.function",
 				"meta.function-call",
 				"variable.function",
 				"support.function",
@@ -245,25 +335,8 @@
 			}
 		},
 		{
-			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
-			"scope": [
-				"constant.numeric",
-				"constant.language",
-				"support.constant",
-				"constant.character",
-				"constant.escape",
-				"variable.parameter",
-				"keyword.other.unit",
-				"keyword.other"
-			],
-			"settings": {
-				"foreground": "#F78C6C"
-			}
-		},
-		{
 			"name": "String, Symbols, Inherited Class, Markup Heading",
 			"scope": [
-				"string",
 				"constant.other.symbol",
 				"constant.other.key",
 				"entity.other.inherited-class",
@@ -273,22 +346,6 @@
 			],
 			"settings": {
 				"foreground": "#C3E88D"
-			}
-		},
-		{
-			"name": "Class, Support",
-			"scope": [
-				"entity.name",
-				"support.type",
-				"support.class",
-				"support.other.namespace.use.php",
-				"meta.use.php",
-				"support.other.namespace.php",
-				"markup.changed.git_gutter",
-				"support.type.sys-types"
-			],
-			"settings": {
-				"foreground": "#FFCB6B"
 			}
 		},
 		{
@@ -353,15 +410,6 @@
 			],
 			"settings": {
 				"foreground": "#82AAFF"
-			}
-		},
-		{
-			"name": "Attributes",
-			"scope": [
-				"entity.other.attribute-name"
-			],
-			"settings": {
-				"foreground": "#C792EA"
 			}
 		},
 		{

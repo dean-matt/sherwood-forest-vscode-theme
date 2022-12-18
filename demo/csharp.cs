@@ -12,6 +12,8 @@ namespace NightOwl.demo
 
         public string TestProperty { get; set; }
 
+        public string test = "hello";
+
         #region RegionTest
         public string Getter => TestProperty;
 
