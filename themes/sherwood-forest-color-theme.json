@@ -22,7 +22,7 @@
 		"editor.selectionHighlightBackground": "#ffffff60",
 		//
 		// Focus
-		"focusBorder": "#ffffff60",
+		"focusBorder": "#314CB6",
 		//
 		// Lists
 		"list.activeSelectionBackground": "#314CB6",
