@@ -49,6 +49,9 @@
 		// Focus
 		"focusBorder": "#FFBA0A",
 		//
+		// Icons
+		"icon.foreground": "#ffffff",
+		//
 		// Inputs
 		"input.background": "#04140a",
 		"input.foreground": "#e4e4e4",
