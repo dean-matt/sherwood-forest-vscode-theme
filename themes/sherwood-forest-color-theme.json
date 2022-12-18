@@ -13,6 +13,12 @@
 		"badge.background": "#FFBA0A",
 		"badge.foreground": "#000000",
 		//
+		// Breadcrumbs
+		"breadcrumb.foreground": "#ffffff",
+		"breadcrumb.background": "#0D2B18",
+		"breadcrumb.activeSelectionForeground": "#FFBA0A",
+		"breadcrumb.focusForeground": "#FFBA0A",
+		//
 		// Dropdown
 		"dropdown.background": "#1b3923",
 		"dropdown.listBackground": "#ffffff10",
