@@ -19,6 +19,12 @@
 		"breadcrumb.activeSelectionForeground": "#FFBA0A",
 		"breadcrumb.focusForeground": "#FFBA0A",
 		//
+		// Buttons
+		"button.background": "#A37500",
+		"button.foreground": "#ffffff",
+		"button.secondaryBackground": "#ffffff60",
+		"button.secondaryForeground": "#ffffff",
+		//
 		// Dropdown
 		"dropdown.background": "#1b3923",
 		"dropdown.listBackground": "#ffffff10",
