@@ -121,8 +121,11 @@
 		// Title bar
 		"titleBar.activeBackground": "#1e502d",
 		"titleBar.inactiveBackground": "#1b3923",
-
-		// "icon.foreground": "#ff0000"
+		//
+		// Welcome Page
+		"welcomePage.progress.background": "#ffffff30",
+		"welcomePage.progress.foreground": "#FFBA0A",
+		//
 	},
 	"tokenColors": [
 		{
