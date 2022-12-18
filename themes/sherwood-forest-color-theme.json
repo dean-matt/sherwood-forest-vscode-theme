@@ -41,20 +41,6 @@
 		"editor.selectionBackground": "#ffffff60",
 		"editor.selectionHighlightBackground": "#ffffff60",
 		//
-		// Focus
-		"focusBorder": "#FFBA0A",
-		//
-		// Lists
-		"list.activeSelectionBackground": "#CC9200",
-		"list.activeSelectionForeground": "#ffffff",
-		"list.dropBackground": "#CC9200",
-		"list.errorForeground": "#ff7472",
-		"list.focusOutline": "#FFBA0A",
-		"list.hoverBackground": "#ffffff30",
-		"list.inactiveSelectionBackground": "#CC9200",
-		"list.inactiveSelectionForeground": "#ffffff",
-		"list.warningForeground": "#F5E900",
-		//
 		// Editor Widgets
 		"editorWidget.background": "#1b2d20",
 		"editorWidget.border": "#ffffff30",
@@ -69,6 +55,17 @@
 		"inputValidation.errorBackground": "#ff7472",
 		"inputValidation.errorBorder": "#ff7472",
 		"inputValidation.errorForeground": "#ffffff",
+		//
+		// Lists
+		"list.activeSelectionBackground": "#CC9200",
+		"list.activeSelectionForeground": "#ffffff",
+		"list.dropBackground": "#CC9200",
+		"list.errorForeground": "#ff7472",
+		"list.focusOutline": "#FFBA0A",
+		"list.hoverBackground": "#ffffff30",
+		"list.inactiveSelectionBackground": "#CC9200",
+		"list.inactiveSelectionForeground": "#ffffff",
+		"list.warningForeground": "#F5E900",
 		//
 		// Menus
 		"menu.background": "#1b3923",
