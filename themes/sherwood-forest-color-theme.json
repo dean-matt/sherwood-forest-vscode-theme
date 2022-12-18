@@ -85,6 +85,9 @@
 		// Scrollbar
 		"scrollbarSlider.background": "#ffffff60",
 		//
+		// Selection
+		"selection.background": "#ffffff60",
+		//
 		// Side bar
 		"sideBar.background": "#112517",
 		"sideBarSectionHeader.background": "#ffffff10",
