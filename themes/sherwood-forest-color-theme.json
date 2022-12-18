@@ -59,6 +59,9 @@
 		"menu.background": "#1b3923",
 		"menu.foreground": "#cccccc",
 		//
+		// Scrollbar
+		"scrollbarSlider.background": "#ffffff60",
+		//
 		// Side bar
 		"sideBar.background": "#112517",
 		"sideBarSectionHeader.background": "#ffffff10",
