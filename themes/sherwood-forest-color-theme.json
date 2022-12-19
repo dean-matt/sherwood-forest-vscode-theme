@@ -40,13 +40,13 @@
 		"editor.inactiveSelectionBackground": "#ffffff60",
 		"editor.selectionBackground": "#ffffff60",
 		"editor.selectionHighlightBackground": "#ffffff60",
-		"editorBracketHighlight.foreground1": "#39B463",
-		"editorBracketHighlight.foreground2": "#F1D222",
-		"editorBracketHighlight.foreground3": "#F55CB1",
-		"editorBracketHighlight.foreground4": "#39B463",
-		"editorBracketHighlight.foreground5": "#F1D222",
-		"editorBracketHighlight.foreground6": "#F55CB1",
-		"editorBracketHighlight.unexpectedBracket.foreground": "#F1D222",
+		"editorBracketHighlight.foreground1": "#CCCCCC",
+		"editorBracketHighlight.foreground2": "#65F6AD",
+		"editorBracketHighlight.foreground3": "#FFDCAD",
+		"editorBracketHighlight.foreground4": "#CCCCCC",
+		"editorBracketHighlight.foreground5": "#65F6AD",
+		"editorBracketHighlight.foreground6": "#FFDCAD",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#CCCCCC",
 		//
 		// Editor Widgets
 		"editorWidget.background": "#1b2d20",
@@ -188,7 +188,6 @@
 				"support.constant",
 				"constant.escape",
 				"variable.parameter",
-				"entity.other.attribute-name",
 				"support.type",
 				"support.class",
 				"support.other.namespace.use.php",
@@ -206,6 +205,8 @@
 			"scope": [
 				// "entity.name",
 				"entity.name.type",
+				"entity.other.attribute-name",
+				"entity.name.tag",
 
 			],
 			"settings": {
@@ -215,11 +216,23 @@
 		{
 			"name": "French Mauve",
 			"scope": [
+				"keyword.control",
+				"keyword.other.unit",
+				"keyword.other",
+				
+			],
+			"settings": {
+				"foreground": "#C874D9"
+			}
+		},
+		{
+			"name": "Crayola Yellow Green",
+			"scope": [
 				"entity.name.function",
 
 			],
 			"settings": {
-				"foreground": "#C874D9"
+				"foreground": "#ACDD7E"
 			}
 		},
 		{
@@ -248,11 +261,7 @@
 		{
 			"name": "Sea Green",
 			"scope": [
-				"entity.name.tag",
 				// "keyword",
-				"keyword.control",
-				"keyword.other.unit",
-				"keyword.other",
 				"storage.type",
 				"storage.modifier",
 				"keyword.other.class",
