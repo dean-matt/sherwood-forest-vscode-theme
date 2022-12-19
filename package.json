@@ -17,5 +17,9 @@
                 "path": "./themes/sherwood-forest-color-theme.json"
             }
         ]
-    }
+    },
+    "repository": {
+        "url": "https://github.com/dean-matt/sherwood-forest-vscode-theme"
+    },
+    "publisher": "this-matt-dean"
 }
