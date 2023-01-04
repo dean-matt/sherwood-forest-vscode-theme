@@ -11,6 +11,7 @@
             "request": "launch",
             "cwd": "${workspaceFolder}/demo",
             "args": [
+                "${workspaceFolder}/demo",
                 "--extensionDevelopmentPath=${workspaceFolder}"
             ]
         }

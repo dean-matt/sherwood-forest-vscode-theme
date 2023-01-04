@@ -6,51 +6,53 @@ using System.Threading.Tasks;
 
 namespace SherwoodForest.demo
 {
-    public class CSharp
+  public class CSharp
+  {
+    private readonly string _testField;
+
+    public string TestProperty { get; set; }
+
+    public string test = "hello";
+
+    #region RegionTest
+    public string Getter => TestProperty;
+
+    public CSharp(string testField)
     {
-        private readonly string _testField;
-
-        public string TestProperty { get; set; }
-
-        public string test = "hello";
-
-        #region RegionTest
-        public string Getter => TestProperty;
-
-        public CSharp(string testField)
-        {
-            _testField = testField;
-            string text = $"{TestProperty} this is a text string";
-            int number = 1;
-        }
-
-        #endregion
-
-        /// <summary>
-        /// Hello this is an xml comment
-        /// </summary>
-        /// <param name="testParam">param comment</param>
-        /// <returns></returns>
-        public async Task<string> TestMethod(string testParam)
-        {
-            for(var i = 0; i <= 5; i++)
-            {
-                testParam.Trim();
-                _testField?.Trim();
-
-                var enumVal = (int)TestEnum.TestValue;
-
-
-                // Hello this is a normal comment
-                new List<string>().Where(c => c == "Test");
-            }
-
-            return await Task.FromResult(testParam);
-        }
+      _testField = testField;
+      string text = $"{TestProperty} this is a text string";
+      int number = 1;
     }
 
-    public enum TestEnum
+    #endregion
+
+    /// <summary>
+    /// Hello this is an xml comment
+    /// </summary>
+    /// <param name="testParam">param comment</param>
+    /// <returns></returns>
+    public async Task<string> TestMethod(string testParam)
     {
-        TestValue
+      // This is a comment
+
+      for (var i = 0; i <= 5; i++)
+      {
+        testParam.Trim();
+        _testField?.Trim();
+
+        var enumVal = (int)TestEnum.TestValue;
+
+
+        // Hello this is a normal comment
+        new List<string>().Where(c => c == "Test");
+      }
+
+      return await Task.FromResult(testParam);
     }
+  }
+
+  public enum TestEnum
+  {
+    TestValue
+  }
 }

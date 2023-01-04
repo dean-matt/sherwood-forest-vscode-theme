@@ -15,7 +15,24 @@ class App extends React.Component {
   }
 
   handleClick = buttonName => {
-    this.setState(calculate(this.state, buttonName))
+    this.setState(calculate(this.state, buttonName));
+
+    /*
+    this.setState(calculate(this.state, buttonName));
+    this.setState(calculate(this.state, buttonName));
+    this.setState(calculate(this.state, buttonName));
+    */
+
+    let index = Math.floor(Math.random() * 906); // At time of development, the Ndex of pokemon is only continuous to 906, see https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_National_Pok%C3%A9dex_number
+    console.log("Getting data for Pokemon ".concat(index));
+
+    fetch('https://pokeapi.co/api/v2/pokemon/'.concat(index), {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      }
+    });
   }
 
   render() {
