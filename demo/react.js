@@ -33,6 +33,13 @@ class App extends React.Component {
         'Accept': 'application/json'
       }
     });
+
+    const Employee = {
+      firstname: 'John',
+      lastname: 'Doe'
+    };
+
+    delete Employee.firstname;
   }
 
   render() {
