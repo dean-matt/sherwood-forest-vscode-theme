@@ -227,6 +227,7 @@
 				"keyword.other",
 				"keyword.other.class",
 				"keyword.operator.expression",
+				"keyword.operator.new",
 				"keyword.type",
 				"keyword.preprocessor",
 				//

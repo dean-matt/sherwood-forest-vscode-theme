@@ -12,11 +12,12 @@ export class SearchComponent implements OnInit, OnDestroy {
   query: string
   searchResults: Array<Person>
   sub: Subscription
+  test = new Subscription()
 
   constructor(
     private searchService: SearchService,
     private route: ActivatedRoute
-  ) {}
+  ) { }
 
   ngOnInit() {
     this.sub = this.route.params.subscribe(params => {
