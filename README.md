@@ -19,10 +19,6 @@ primary {
   --dark-green: #0c3632;
   --sea-green: #008f62;
   --emerald: #00cc8b;
-  --selective-yellow: #ffba0a;
-  --ut-orange: #fe8e35;
-  --bittersweet: #fd625f;
-  --phlox: #c157ff;
   --white: #ffffff;
 }
 ```
