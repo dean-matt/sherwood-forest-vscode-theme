@@ -16,7 +16,10 @@ _(coming soon)_
 primary {
   --black: #000000;
   --night: #030f0e;
-  --dark-green: #0c3632;
+  --rich-black: #051c1b;
+  --dark-green: #072423;
+  --dark-green-2: #0c3632;
+  --dartmouth-green: #006646;
   --sea-green: #008f62;
   --emerald: #00cc8b;
   --white: #ffffff;
@@ -35,6 +38,8 @@ secondary {
   --copper: #b08246;
   --flame: #e86438;
   --ut-orange: #fe8e35;
+  --dark-goldenrod: #b38207;
+  --harvest-gold: #e6a709;
   --selective-yellow: #ffba0a;
   --tufts-blue: #178ad1;
   --phlox: #c157ff;
@@ -69,5 +74,7 @@ shading {
   --darker-40: #00000040;
   --darker-50: #00000050;
   --darker-60: #00000060;
+  --grey-3: #333333;
+  --grey-5: #555555;
 }
 ```
