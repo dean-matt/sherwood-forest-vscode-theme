@@ -17,7 +17,7 @@ primary {
   --black: #000000;
   --night: #030f0e;
   --rich-black: #051c1b;
-  --dark-green: #072423;
+  --dark-green-1: #072423;
   --dark-green-2: #0c3632;
   --dartmouth-green: #006646;
   --sea-green: #008f62;
