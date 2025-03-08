@@ -26,7 +26,7 @@ primary {
 }
 ```
 
-![Primary Palette](<themes/Summer Palette (Primary).png>)
+![Primary Palette](images/Summer_Palette_Primary.png)
 
 ### Secondary Palette:
 
@@ -46,7 +46,7 @@ secondary {
 }
 ```
 
-![Secondary Palette](<themes/Summer Palette (Secondary).png>)
+![Secondary Palette](images/Summer_Palette_Secondary.png)
 
 ## Fall
 
