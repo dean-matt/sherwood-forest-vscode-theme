@@ -2,7 +2,8 @@
   "name": "sherwood-forest",
   "displayName": "Sherwood Forest",
   "description": "",
-  "version": "0.0.9",
+  "version": "0.0.10",
+  "icon": "images/Sherwood_Forest_Icon.png",
   "engines": {
     "vscode": "^1.67.0"
   },
