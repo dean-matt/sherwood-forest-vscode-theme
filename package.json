@@ -1,7 +1,7 @@
 {
   "name": "sherwood-forest",
   "displayName": "Sherwood Forest",
-  "description": "",
+  "description": "Nature inspired theme",
   "version": "0.0.10",
   "icon": "images/Sherwood_Forest_Icon.png",
   "engines": {
