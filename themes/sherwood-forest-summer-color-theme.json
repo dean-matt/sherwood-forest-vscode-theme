@@ -1755,8 +1755,6 @@
     "checkbox.border": "#00000000",
     "diffEditor.insertedTextBorder": "#00000000",
     "diffEditor.removedTextBorder": "#00000000",
-    "dropdown.background": "#000000",
-    "dropdown.border": "#00000000",
     "editor.findMatchHighlightBorder": "#00000000",
     "editor.findRangeHighlightBorder": "#00000000",
     "editor.lineHighlightBorder": "#00000000",
@@ -1770,8 +1768,6 @@
     "editorOverviewRuler.background": "#00000000",
     "editorOverviewRuler.border": "#00000000",
     "editorWarning.border": "#00000000",
-    "input.background": "#00000060",
-    "input.border": "#00000000",
     "listFilterWidget.noMatchesOutline": "#00000000",
     "listFilterWidget.outline": "#00000000",
     "menu.border": "#00000000",
@@ -1880,6 +1876,7 @@
     "button.secondaryForeground": "#ffffffd0",
     "button.secondaryHoverBackground": "#ffffff60",
     "checkbox.foreground": "#ffffffd0",
+    "dropdown.border": "#ffffff30",
     "dropdown.foreground": "#ffffffd0",
     "editor.foreground": "#ffffffc0",
     "editor.foldBackground": "#ffffff60",
@@ -1900,6 +1897,7 @@
     "editorWidget.resizeBorder": "#ffffff30",
     "foreground": "#ffffffc0",
     "icon.foreground": "#ffffffa0",
+    "input.border": "#ffffff30",
     "input.foreground": "#ffffffd0",
     "input.placeholderForeground": "#ffffff60",
     "inputOption.activeForeground": "#ffffffd0",
@@ -2026,6 +2024,8 @@
     // Phlox
 
     // Other
+    "dropdown.background": "#003633",
+    "input.background": "#003633",
     "gitDecoration.conflictingResourceForeground": "#a05fff",
     "gitDecoration.deletedResourceForeground": "#ff7472",
     "gitDecoration.ignoredResourceForeground": "#8c8c8c",
