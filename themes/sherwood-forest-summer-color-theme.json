@@ -1830,7 +1830,7 @@
     "titleBar.inactiveBackground": "#0c3632",
 
     // Dartmouth Green
-    "merge.currentContentBackground": "#006646",
+    "merge.currentContentBackground": "#006646a0",
 
     // Sea Green
     "button.background": "#008f62",
@@ -1839,7 +1839,7 @@
     "listFilterWidget.background": "#008f62",
     "menu.selectionBackground": "#008f62",
     "list.focusBackground": "#008f62",
-    "merge.currentHeaderBackground": "#008f62",
+    "merge.currentHeaderBackground": "#008f62d0",
 
     // Emerald
     "activityBarBadge.background": "#00cc8b",
@@ -2018,7 +2018,6 @@
     "editorMarkerNavigationWarning.background": "#ffba0a",
     "gitDecoration.modifiedResourceForeground": "#ffba0a",
     "gitDecoration.stageModifiedResourceForeground": "#ffba0aa0",
-    "merge.incomingHeaderBackground": "#ffba0a",
     "minimapGutter.modifiedBackground": "#ffba0aa0",
     "notificationsWarningIcon.foreground": "#ffba0a",
 
@@ -2034,7 +2033,8 @@
     "gitDecoration.submoduleResourceForeground": "#ff9b00",
     "merge.commonContentBackground": "#282828",
     "merge.commonHeaderBackground": "#383838",
-    "merge.incomingContentBackground": "#243a5e",
+    "merge.incomingContentBackground": "#a05fff50",
+    "merge.incomingHeaderBackground": "#a05fffa0",
     "terminal.ansiBlue": "#2472c8",
     "terminal.ansiBrightBlack": "#666666",
     "terminal.ansiBrightBlue": "#3b8eea",
