@@ -2,14 +2,6 @@
 
 A dark VS Code color theme that is based around forest colors.
 
-Contains a theme for each season: Spring, Summer, Fall, and Winter.
-
-## Spring
-
-_(coming soon)_
-
-## Summer
-
 ### Primary Palette:
 
 ```css
@@ -47,16 +39,6 @@ secondary {
 ```
 
 ![Secondary Palette](images/Summer_Palette_Secondary.png)
-
-## Fall
-
-_(coming soon)_
-
-## Winter
-
-_(coming soon)_
-
-## All Seasons
 
 ### Shading Palette
 
