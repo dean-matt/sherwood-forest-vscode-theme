@@ -1834,7 +1834,8 @@
     "list.activeSelectionBackground": "#008f62",
     "listFilterWidget.background": "#008f62",
     "menu.selectionBackground": "#008f62",
-    "list.focusBackground": "#008f62",
+    "list.focusBackground": "#008f6240",
+    "list.inactiveSelectionBackground": "#008f62",
     "merge.currentHeaderBackground": "#008f62d0",
 
     // Emerald
@@ -1903,11 +1904,10 @@
     "input.placeholderForeground": "#ffffff60",
     "inputOption.activeForeground": "#ffffffd0",
     "list.activeSelectionForeground": "#ffffff",
-    "list.dropBackground": "#ffffff10",
+    "list.dropBackground": "#ffffff20",
     "list.focusForeground": "#ffffff",
     "list.hoverBackground": "#ffffff20",
     "list.hoverForeground": "#ffffff",
-    "list.inactiveSelectionBackground": "#ffffff40",
     "list.inactiveSelectionForeground": "#ffffff",
     "menu.foreground": "#ffffffd0",
     "menu.selectionForeground": "#ffffffd0",
