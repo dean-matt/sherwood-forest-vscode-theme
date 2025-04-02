@@ -2,7 +2,7 @@
   "name": "sherwood-forest",
   "displayName": "Sherwood Forest",
   "description": "Nature inspired theme",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "icon": "images/Sherwood_Forest_Icon.png",
   "engines": {
     "vscode": "^1.67.0"
@@ -15,12 +15,12 @@
       {
         "label": "Sherwood Forest (Legacy)",
         "uiTheme": "vs-dark",
-        "path": "./themes/sherwood-forest-color-theme.json"
+        "path": "./themes/sherwood-forest-legacy-color-theme.json"
       },
       {
-        "label": "Sherwood Forest (Summer)",
+        "label": "Sherwood Forest",
         "uiTheme": "vs-dark",
-        "path": "./themes/sherwood-forest-summer-color-theme.json"
+        "path": "./themes/sherwood-forest-color-theme.json"
       }
     ]
   },
