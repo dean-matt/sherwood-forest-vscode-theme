@@ -1756,8 +1756,8 @@
     "diffEditor.insertedTextBorder": "#00000000",
     "diffEditor.removedTextBorder": "#00000000",
     "editor.findMatchHighlightBorder": "#00000000",
-    "editor.findMatchHighlightForeground": "#000000",
-    "editor.findRangeHighlightBorder": "#00000000",
+    "editor.findMatchHighlightForeground": "#000000a0",
+    // "editor.findRangeHighlightBorder": "#00000000", // Causes lines to appear between ranges even when transparent
     "editor.lineHighlightBackground": "#00000000",
     "editor.rangeHighlightBorder": "#00000000",
     "editor.selectionHighlightBorder": "#00000000",
@@ -1848,7 +1848,6 @@
     "button.hoverBackground": "#00cc8b",
     "diffEditor.insertedTextBackground": "#00cc8b30",
     "editor.findMatchHighlightBackground": "#00cc8b40",
-    "editor.findRangeHighlightBackground": "#00cc8b40",
     "editorGutter.addedBackground": "#00cc8ba0",
     "editorInfo.background": "#00cc8b30",
     "editorInfo.foreground": "#00cc8b",
@@ -1885,6 +1884,8 @@
     "checkbox.foreground": "#ffffffd0",
     "dropdown.border": "#ffffff30",
     "dropdown.foreground": "#ffffffd0",
+    "editor.findMatchBorder": "#ffffffa0",
+    "editor.findRangeHighlightBackground": "#ffffff15",
     "editor.foreground": "#ffffffc0",
     "editor.foldBackground": "#ffffff20",
     "editor.lineHighlightBorder": "#ffffff30",
@@ -1999,7 +2000,6 @@
 
     // UT Orange
     "editor.findMatchBackground": "#fe8e35a0",
-    "editor.findMatchBorder": "#fe8e35",
     "editor.hoverHighlightBackground": "#fe8e3560",
     "editor.rangeHighlightBackground": "#fe8e3560",
     "editorWarning.background": "#fe8e3530",
