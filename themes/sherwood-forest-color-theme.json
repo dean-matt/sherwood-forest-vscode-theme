@@ -482,29 +482,14 @@
       }
     },
     {
-      "name": "illegal",
-      "scope": ["invalid.illegal"],
-      "settings": {
-        "foreground": "#ffffff"
-      }
-    },
-    {
-      "name": "Broken",
-      "scope": ["invalid.broken"],
-      "settings": {
-        "foreground": "#ffffff"
-      }
-    },
-    {
-      "name": "Deprecated",
-      "scope": ["invalid.deprecated"],
-      "settings": {
-        "foreground": "#ffffff"
-      }
-    },
-    {
-      "name": "Unimplemented",
-      "scope": ["invalid.unimplemented"],
+      "name": "White",
+      "scope": [
+        "invalid.illegal",
+        "invalid.broken",
+        "invalid.deprecated",
+        "invalid.unimplemented",
+        "constant.other.color.rgb-value.xi"
+      ],
       "settings": {
         "foreground": "#ffffff"
       }
@@ -520,13 +505,6 @@
       "scope": ["token.error-token"],
       "settings": {
         "foreground": "#f44747"
-      }
-    },
-    {
-      "name": "language operators like '+', '-' etc",
-      "scope": ["constant.other.color.rgb-value.xi"],
-      "settings": {
-        "foreground": "#ffffff"
       }
     },
     {
