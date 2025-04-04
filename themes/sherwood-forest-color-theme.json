@@ -1748,297 +1748,333 @@
     }
   ],
   "colors": {
-    // Black
-    "activityBarBadge.foreground": "#000000", // Black
-    "badge.foreground": "#000000", // Black
-    "checkbox.background": "#000000", // Black
-    "checkbox.border": "#00000000", // Black
-    "diffEditor.insertedTextBorder": "#00000000", // Black
-    "diffEditor.removedTextBorder": "#00000000", // Black
-    "editor.findMatchHighlightBorder": "#00000000", // Black
-    "editor.findMatchHighlightForeground": "#000000a0", // Black
-    // "editor.findRangeHighlightBorder": "#00000000", // Black // Causes lines to appear between ranges even when transparent
-    "editor.lineHighlightBackground": "#00000000", // Black
-    "editor.rangeHighlightBorder": "#00000000", // Black
-    "editor.selectionHighlightBorder": "#00000000", // Black
-    "editor.wordHighlightBorder": "#00000000", // Black
-    "editor.wordHighlightStrongBorder": "#00000000", // Black
-    "editorError.border": "#00000000", // Black
-    "editorGroupHeader.border": "#00000000", // Black
-    "editorInfo.border": "#00000000", // Black
-    "editorOverviewRuler.border": "#00000000", // Black
-    "editorWarning.border": "#00000000", // Black
-    "listFilterWidget.noMatchesOutline": "#00000000", // Black
-    "listFilterWidget.outline": "#00000000", // Black
-    "menu.border": "#00000000", // Black
-    "menu.selectionBorder": "#00000000", // Black
-    "scrollbar.shadow": "#000000", // Black
-    "sideBarSectionHeader.background": "#00000000", // Black
-    "sideBarSectionHeader.border": "#00000000", // Black
-    "tab.activeBorder": "#00000000", // Black
-    "tab.activeBorderTop": "#00000000", // Black
-    "tab.activeModifiedBorder": "#00000000", // Black
-    "terminal.ansiBlack": "#000000", // Black
-    "titleBar.border": "#00000000", // Black
-    "walkThrough.embeddedEditorBackground": "#00000050", // Black
-    "widget.shadow": "#000000", // Black
-
-    // Night
-    "breadcrumb.background": "#030f0e", // Night
-    "editor.background": "#030f0e", // Night
-    "editorCursor.background": "#030f0e", // Night
-    "editorGroup.emptyBackground": "#030f0e", // Night
-    "editorGutter.background": "#030f0e", // Night
-    "editorOverviewRuler.background": "#030f0e", // Night
-    "minimap.background": "#030f0e", // Night
-    "panel.background": "#030f0e", // Night
-    "tab.activeBackground": "#030f0e", // Night
-
-    // Rich Black
-    "editorGroupHeader.tabsBackground": "#051c1b", // Rich Black
-    "tab.inactiveBackground": "#051c1b", // Rich Black
-
-    // Dark Green 1
-    "debugExceptionWidget.background": "#072423", // Dark Green 1
-    "debugExceptionWidget.border": "#072423", // Dark Green 1
-    "debugToolBar.background": "#072423", // Dark Green 1
-    "debugToolBar.border": "#072423", // Dark Green 1
-    "editorHoverWidget.background": "#072423", // Dark Green 1
-    "editorMarkerNavigation.background": "#072423", // Dark Green 1
-    "editorSuggestWidget.background": "#072423", // Dark Green 1
-    "editorWidget.background": "#072423", // Dark Green 1
-    "notifications.background": "#072423", // Dark Green 1
-    "notificationToast.border": "#072423", // Dark Green 1
-    "peekViewResult.background": "#072423", // Dark Green 1
-    "sideBar.background": "#072423", // Dark Green 1
-    "peekViewTitle.background": "#072423", // Dark Green 1
-
-    // Dark Green 2
-    "activityBar.background": "#0c3632", // Dark Green 2
-    "editorHoverWidget.border": "#0c3632", // Dark Green 2
-    "editorSuggestWidget.border": "#0c3632", // Dark Green 2
-    "notificationCenter.border": "#0c3632", // Dark Green 2
-    "notificationCenterHeader.background": "#0c3632", // Dark Green 2
-    "notifications.border": "#0c3632", // Dark Green 2
-    "menu.background": "#0c3632", // Dark Green 2
-    "peekViewEditor.background": "#0c3632", // Dark Green 2
-    "peekViewEditorGutter.background": "#0c3632", // Dark Green 2
-    "titleBar.activeBackground": "#0c3632", // Dark Green 2
-    "titleBar.inactiveBackground": "#0c3632", // Dark Green 2
-
-    // Dartmouth Green
-    "merge.currentContentBackground": "#006646a0", // Dartmouth Green
-
-    // Sea Green
-    "button.background": "#008f62", // Sea Green
-    "inputOption.activeBackground": "#008f62", // Sea Green
-    "list.activeSelectionBackground": "#008f62", // Sea Green
-    "list.focusBackground": "#008f6240", // Sea Green
-    "list.inactiveSelectionBackground": "#008f62", // Sea Green
-    "listFilterWidget.background": "#008f62", // Sea Green
-    "menu.selectionBackground": "#008f62", // Sea Green
-    "merge.currentHeaderBackground": "#008f62d0", // Sea Green
-    "peekViewResult.selectionBackground": "#008f62", // Sea Green
-
-    // Emerald
-    "activityBarBadge.background": "#00cc8b", // Emerald
-    "badge.background": "#00cc8b", // Emerald
-    "breadcrumb.activeSelectionForeground": "#00cc8b", // Emerald
-    "breadcrumb.focusForeground": "#00cc8b", // Emerald
-    "button.hoverBackground": "#00cc8b", // Emerald
-    "diffEditor.insertedTextBackground": "#00cc8b30", // Emerald
-    "editor.findMatchHighlightBackground": "#00cc8b40", // Emerald
-    "editorGutter.addedBackground": "#00cc8ba0", // Emerald
-    // "editorInfo.background": "#00cc8b30", // Emerald // Looks cleaner without this background
-    "editorInfo.foreground": "#00cc8b", // Emerald
-    "editorLink.activeForeground": "#00cc8b", // Emerald
-    "editorMarkerNavigationInfo.background": "#00cc8b", // Emerald
-    "editorOverviewRuler.findMatchForeground": "#00cc8b40", // Emerald
-    "editorSuggestWidget.highlightForeground": "#00cc8b", // Emerald
-    "focusBorder": "#00cc8b", // Emerald
-    "gitDecoration.addedResourceForeground": "#00cc8b90", // Emerald
-    "gitDecoration.untrackedResourceForeground": "#00cc8b", // Emerald
-    "inputOption.activeBorder": "#00cc8b", // Emerald
-    "list.highlightForeground": "#00cc8b", // Emerald
-    "minimap.findMatchHighlight": "#00cc8b40", // Emerald
-    "minimapGutter.addedBackground": "#00cc8ba0", // Emerald
-    "notificationsInfoIcon.foreground": "#00cc8b", // Emerald
-    "panelTitle.activeBorder": "#00cc8b", // Emerald
-    "peekView.border": "#00cc8b", // Emerald
-    "progressBar.background": "#00cc8b", // Emerald
-    "settings.modifiedItemIndicator": "#00cc8b", // Emerald
-    "textLink.foreground": "#00cc8b", // Emerald
-
-    // Aquamarine
-    "textLink.activeForeground": "#00ffae", // Aquamarine
-
-    // White
+    // Activity Bar - Bar that allows switching between side bar view, usually located on the far left
     "activityBar.activeBackground": "#ffffff20", // White
+    "activityBar.background": "#0c3632", // Dark Green 2
     "activityBar.foreground": "#ffffff", // White
     "activityBar.inactiveForeground": "#ffffff60", // White
+    "activityBarBadge.background": "#00cc8b", // Emerald
+    "activityBarBadge.foreground": "#000000", // Black
+
+    // Badges - Small info labels, often little circles
+    "badge.background": "#00cc8b", // Emerald
+    "badge.foreground": "#000000", // Black
+
+    // Breadcrumbs - Show for open files at the top of the editor
+    "breadcrumb.activeSelectionForeground": "#00cc8b", // Emerald
+    "breadcrumb.background": "#030f0e", // Night
+    "breadcrumb.focusForeground": "#00cc8b", // Emerald
     "breadcrumb.foreground": "#ffffff", // White
+
+    // Buttons - A folder opened without
+    "button.background": "#008f62", // Sea Green
     "button.foreground": "#ffffffd0", // White
+    "button.hoverBackground": "#00cc8b", // Emerald
     "button.secondaryBackground": "#ffffff40", // White
     "button.secondaryForeground": "#ffffffd0", // White
     "button.secondaryHoverBackground": "#ffffff60", // White
+
+    // Checkboxes - Settings UI contains many of these
+    "checkbox.background": "#000000", // Black
+    "checkbox.border": "#00000000", // Black
     "checkbox.foreground": "#ffffffd0", // White
+
+    // Debug Exception Widget - Shows when debugging stops at an exception
+    "debugExceptionWidget.background": "#072423", // Dark Green 1
+    "debugExceptionWidget.border": "#072423", // Dark Green 1
+
+    // Debug Tool Bar - Shows when debugging an app, contains controls for reloading and stopping
+    "debugToolBar.background": "#072423", // Dark Green 1
+    "debugToolBar.border": "#072423", // Dark Green 1
+
+    // Diff Editor - Shows when viewing changes to a file
+    "diffEditor.border": "#82756460", // Beaver
+    "diffEditor.insertedTextBackground": "#00cc8b30", // Emerald
+    "diffEditor.insertedTextBorder": "#00000000", // Black
+    "diffEditor.removedTextBackground": "#e8643830", // Flame
+    "diffEditor.removedTextBorder": "#00000000", // Black
+
+    // Dropdowns - Settings UI contains many of these
+    "dropdown.background": "#003633",
     "dropdown.border": "#ffffff30", // White
     "dropdown.foreground": "#ffffffd0", // White
-    "editor.findMatchBorder": "#ffffffa0", // White
-    "editor.findRangeHighlightBackground": "#ffffff15", // White
-    "editor.foreground": "#ffffffc0", // White
+
+    // Editor General Settings
+    "editor.background": "#030f0e", // Night
     "editor.foldBackground": "#ffffff20", // White
+    "editor.foreground": "#ffffffc0", // White
+    "editor.hoverHighlightBackground": "#fe8e3560", // UT Orange
+    "editor.inactiveSelectionBackground": "#82756460", // Beaver
+
+    // Editor Find Matches
+    "editor.findMatchBackground": "#fe8e35a0", // UT Orange
+    "editor.findMatchBorder": "#ffffffa0", // White
+    "editor.findMatchHighlightBackground": "#00cc8b40", // Emerald
+    "editor.findMatchHighlightBorder": "#00000000", // Black
+    "editor.findMatchHighlightForeground": "#000000a0", // Black
+    "editor.findRangeHighlightBackground": "#ffffff15", // White
+    "editor.findRangeHighlightBorder": "#00000000", // Black // Causes lines to appear between ranges even when transparent
+
+    // Editor Cursor
+    "editorCursor.background": "#030f0e", // Night
+    "editorCursor.foreground": "#ffffffa0", // White
+
+    // Editor Selection
+    "editor.lineHighlightBackground": "#00000000", // Black
     "editor.lineHighlightBorder": "#ffffff30", // White
+    "editor.rangeHighlightBackground": "#fe8e3560", // UT Orange
+    "editor.rangeHighlightBorder": "#00000000", // Black
+    "editor.selectionBackground": "#827564a0", // Beaver
+    "editor.selectionHighlightBackground": "#827564a0", // Beaver
+    "editor.selectionHighlightBorder": "#00000000", // Black
+    "editor.wordHighlightBackground": "#82756460", // Beaver
+    "editor.wordHighlightBorder": "#00000000", // Black
+    "editor.wordHighlightStrongBackground": "#827564a0", // Beaver
+    "editor.wordHighlightStrongBorder": "#00000000", // Black
+    "editorWhitespace.foreground": "#ffffff30", // White
+
+    // Editor Squigglies
+    // "editorError.background": "#e8643830", // Flame // Looks cleaner without this background
+    "editorError.border": "#00000000", // Black
+    "editorError.foreground": "#e86438", // Flame
+    // "editorInfo.background": "#00cc8b30", // Emerald // Looks cleaner without this background
+    "editorInfo.border": "#00000000", // Black
+    "editorInfo.foreground": "#00cc8b", // Emerald
+    // "editorWarning.background": "#fe8e3530", // Selective Yellow // Looks cleaner without this background
+    "editorWarning.border": "#00000000", // Black
+    "editorWarning.foreground": "#ffba0a", // Selective Yellow
+
+    // Editor Suggest Widget - aka Intellisense or Autocompletion
+    "editorSuggestWidget.background": "#072423", // Dark Green 1
+    "editorSuggestWidget.border": "#0c3632", // Dark Green 2
+    "editorSuggestWidget.foreground": "#ffffffc0", // White
+    "editorSuggestWidget.highlightForeground": "#00cc8b", // Emerald
+    "editorSuggestWidget.selectedBackground": "#ffffff60", // White
+
+    // Editor Brackets
     "editorBracketMatch.background": "#ffffff30", // White
     "editorBracketMatch.border": "#ffffff60", // White
-    "editorCodeLens.foreground": "#ffffffc0", // White
-    "editorCursor.foreground": "#ffffffa0", // White
-    "editorGutter.foldingControlForeground": "#ffffffc0", // White
+
+    // Editor Hover Widget - Such as hovering over a variable to see more info
+    "editorHoverWidget.background": "#072423", // Dark Green 1
+    "editorHoverWidget.border": "#0c3632", // Dark Green 2
     "editorHoverWidget.foreground": "#ffffffc0", // White
+
+    // Editor Gutter - Located to the right of the line numbers
+    "editorGutter.addedBackground": "#00cc8ba0", // Emerald
+    "editorGutter.background": "#030f0e", // Night
+    "editorGutter.commentRangeForeground": "#827564", // Beaver
+    "editorGutter.deletedBackground": "#e86438a0", // Flame
+    "editorGutter.foldingControlForeground": "#ffffffc0", // White
+    "editorGutter.modifiedBackground": "#ffba0a", // Selective Yellow
+
+    // Editor Links - Such as holding Ctrl or Cmd and hovering over a class
+    "editorLink.activeForeground": "#00cc8b", // Emerald
+
+    // Editor Marker Navigation - Such as hovering over an error and clicking "View Problem"
+    "editorMarkerNavigation.background": "#072423", // Dark Green 1
+    "editorMarkerNavigationError.background": "#e86438", // Flame
+    "editorMarkerNavigationInfo.background": "#00cc8b", // Emerald
+    "editorMarkerNavigationWarning.background": "#ffba0a", // Selective Yellow
+
+    // Editor Overview Ruler - Located on the far right of the editor, contains the scrollbar and markers for various things in the editor
+    "editorOverviewRuler.background": "#030f0e", // Night
+    "editorOverviewRuler.border": "#00000000", // Black
+    "editorOverviewRuler.findMatchForeground": "#00cc8b40", // Emerald
+
+    // Editor Indentation Guides - Show whenever things are indented
     "editorIndentGuide.activeBackground1": "#ffffffa0", // White
     "editorIndentGuide.background1": "#ffffff30", // White
+
+    // Editor Line Numbers
     "editorLineNumber.activeForeground": "#ffffff", // White
     "editorLineNumber.foreground": "#ffffff60", // White
-    "editorSuggestWidget.foreground": "#ffffffc0", // White
-    "editorSuggestWidget.selectedBackground": "#ffffff60", // White
-    "editorWhitespace.foreground": "#ffffff30", // White
+
+    // Code Lens
+    "editorCodeLens.foreground": "#ffffffc0", // White
+
+    // Editor Groups
+    "editorGroup.border": "#82756460", // Beaver
+    "editorGroup.emptyBackground": "#030f0e", // Night
+    "editorGroupHeader.border": "#00000000", // Black
+    "editorGroupHeader.tabsBackground": "#051c1b", // Rich Black
+
+    // Rulers - Configured in settings.json via "editor.rulers"
+    "editorRuler.foreground": "#82756460", // Beaver
+
+    // Editor Widgets - Such as Find, only used if they are not overridden
+    "editorWidget.background": "#072423", // Dark Green 1
     "editorWidget.foreground": "#ffffffc0", // White
     "editorWidget.resizeBorder": "#ffffff30", // White
+
+    // General
+    "focusBorder": "#00cc8b", // Emerald
     "foreground": "#ffffffc0", // White
     "icon.foreground": "#ffffffa0", // White
+
+    // Git Decorations - Such as when a file is added, modified, or deleted
+    "gitDecoration.addedResourceForeground": "#00cc8b90", // Emerald
+    "gitDecoration.conflictingResourceForeground": "#a05fff",
+    "gitDecoration.deletedResourceForeground": "#ff7472",
+    "gitDecoration.ignoredResourceForeground": "#8c8c8c",
+    "gitDecoration.modifiedResourceForeground": "#ffba0a", // Selective Yellow
+    "gitDecoration.stageDeletedResourceForeground": "#ff7472",
+    "gitDecoration.stageModifiedResourceForeground": "#ffba0a", // Selective Yellow
+    "gitDecoration.submoduleResourceForeground": "#ff9b00",
+    "gitDecoration.untrackedResourceForeground": "#00cc8b", // Emerald
+
+    // Inputs - Such as in the Search panel or settings UI
+    "input.background": "#003633",
     "input.border": "#ffffff30", // White
     "input.foreground": "#ffffffd0", // White
     "input.placeholderForeground": "#ffffff60", // White
+    "inputOption.activeBackground": "#008f62", // Sea Green
+    "inputOption.activeBorder": "#00cc8b", // Emerald
     "inputOption.activeForeground": "#ffffffd0", // White
+
+    // Lists - Such as the explorer view
+    "list.activeSelectionBackground": "#008f62", // Sea Green
     "list.activeSelectionForeground": "#ffffff", // White
     "list.dropBackground": "#ffffff20", // White
+    "list.errorForeground": "#e86438", // Flame
+    "list.focusBackground": "#008f6240", // Sea Green
     "list.focusForeground": "#ffffff", // White
+    "list.highlightForeground": "#00cc8b", // Emerald
     "list.hoverBackground": "#ffffff20", // White
     "list.hoverForeground": "#ffffff", // White
+    "list.inactiveSelectionBackground": "#008f62", // Sea Green
     "list.inactiveSelectionForeground": "#ffffff", // White
+    "list.warningForeground": "#ffba0a", // Selective Yellow
+    "listFilterWidget.background": "#008f62", // Sea Green
+    "listFilterWidget.noMatchesOutline": "#00000000", // Black
+    "listFilterWidget.outline": "#00000000", // Black
+
+    // Menus - Such as File or Edit, may only show on Windows
+    "menu.background": "#ff0000", // Dark Green 2
+    "menu.border": "#00000000", // Black
     "menu.foreground": "#ffffffd0", // White
+    "menu.selectionBackground": "#008f62", // Sea Green
+    "menu.selectionBorder": "#00000000", // Black
     "menu.selectionForeground": "#ffffffd0", // White
     "menu.separatorBackground": "#ffffff40", // White
     "menubar.selectionBackground": "#ffffff20", // White
     "menubar.selectionForeground": "#ffffffd0", // White
+
+    // Merge Conflicts
+    "merge.commonContentBackground": "#282828",
+    "merge.commonHeaderBackground": "#383838",
+    "merge.currentContentBackground": "#006646a0", // Dartmouth Green
+    "merge.currentHeaderBackground": "#008f62d0", // Sea Green
+    "merge.incomingContentBackground": "#a05fff50",
+    "merge.incomingHeaderBackground": "#a05fffa0",
+
+    // Minimap - If enabled shows on the right side of the editor
+    "minimap.background": "#030f0e", // Night
+    "minimap.errorHighlight": "#e86438", // Flame
+    "minimap.findMatchHighlight": "#00cc8b40", // Emerald
+    "minimap.selectionHighlight": "#827564a0", // Beaver
+    "minimap.warningHighlight": "#ffba0a", // Selective Yellow
+    "minimapGutter.addedBackground": "#00cc8ba0", // Emerald
+    "minimapGutter.deletedBackground": "#e86438a0", // Flame
+    "minimapGutter.modifiedBackground": "#ffba0a", // Selective Yellow
+
+    // Notifications
+    "notificationCenter.border": "#0c3632", // Dark Green 2
+    "notificationCenterHeader.background": "#0c3632", // Dark Green 2
     "notificationCenterHeader.foreground": "#ffffffd0", // White
+    "notifications.background": "#072423", // Dark Green 1
+    "notifications.border": "#0c3632", // Dark Green 2
     "notifications.foreground": "#ffffffd0", // White
+    "notificationsErrorIcon.foreground": "#e86438", // Flame
+    "notificationsInfoIcon.foreground": "#00cc8b", // Emerald
+    "notificationsWarningIcon.foreground": "#ffba0a", // Selective Yellow
+    "notificationToast.border": "#072423", // Dark Green 1
+
+    // Panels - Such as Terminal or Output
+    "panel.background": "#030f0e", // Night
     "panel.border": "#ffffff40", // White
     "panelSection.border": "#ffffff40", // White
+    "panelTitle.activeBorder": "#00cc8b", // Emerald
     "panelTitle.activeForeground": "#ffffffd0", // White
     "panelTitle.inactiveForeground": "#ffffff80", // White
+
+    // Peek View - Right click on something you want to peek
+    "peekView.border": "#00cc8b", // Emerald
+    "peekViewEditor.background": "#0c3632", // Dark Green 2
+    "peekViewEditor.matchHighlightBackground": "#fe8e35a0", // UT Orange
+    "peekViewEditor.matchHighlightBorder": "#fe8e35", // UT Orange
+    "peekViewEditorGutter.background": "#0c3632", // Dark Green 2
+    "peekViewResult.background": "#072423", // Dark Green 1
     "peekViewResult.fileForeground": "#ffffffc0", // White
     "peekViewResult.lineForeground": "#ffffffc0", // White
+    "peekViewResult.matchHighlightBackground": "#fe8e35a0", // UT Orange
+    "peekViewResult.selectionBackground": "#008f62", // Sea Green
     "peekViewResult.selectionForeground": "#ffffff", // White
+    "peekViewTitle.background": "#072423", // Dark Green 1
     "peekViewTitleDescription.foreground": "#ffffff60", // White
     "peekViewTitleLabel.foreground": "#ffffffc0", // White
+
+    // Picker Group - Such as Command Palette
     "pickerGroup.border": "#ffffff30", // White
     "pickerGroup.foreground": "#ffffff60", // White
+
+    // Progress Bars
+    "progressBar.background": "#00cc8b", // Emerald
+
+    // Header shadow for scrolled items
+    "scrollbar.shadow": "#000000", // Black
+
+    // Scrollbar Slider - aka handle for scrolling
     "scrollbarSlider.activeBackground": "#ffffff60", // White
     "scrollbarSlider.background": "#ffffff20", // White
     "scrollbarSlider.hoverBackground": "#ffffff40", // White
+
+    // Non-Editor Text Selection - Such as in the settings UI
     "selection.background": "#ffffff40", // White
-    "settings.focusedRowBackground": "#ffffff30", // White
+
+    // Settings - See settings UI for these
+    "settings.focusedRowBackground": "#008f6240", // Sea Green
     "settings.headerBorder": "#ffffff30", // White
     "settings.headerForeground": "#ffffff", // White
+    "settings.modifiedItemIndicator": "#00cc8b", // Emerald
     "settings.settingsHeaderHoverForeground": "#ffffff", // White
+
+    // Side Bar - Containers for views like Explorer or Source Control
+    "sideBar.background": "#072423", // Dark Green 1
+    "sideBar.border": "#82756460", // Beaver
     "sideBar.dropBackground": "#ffffff10", // White
     "sideBar.foreground": "#ffffffc0", // White
+    "sideBarSectionHeader.background": "#00000000", // Black
+    "sideBarSectionHeader.border": "#00000000", // Black
     "sideBarSectionHeader.foreground": "#ffffff", // White
     "sideBarTitle.foreground": "#ffffff", // White
+
+    // Status Bar - Bottommost bar
+    "statusBar.background": "#522e00", // Sepia
+    "statusBar.debuggingBackground": "#e86438", // Flame
     "statusBar.debuggingForeground": "#ffffffd0", // White
     "statusBar.foreground": "#ffffffd0", // White
+    "statusBar.noFolderBackground": "#827564", // Beaver
     "statusBar.noFolderForeground": "#ffffffd0", // White
     "statusBarItem.activeBackground": "#FFFFFF25", // White
     "statusBarItem.hoverBackground": "#ffffff20", // White
+    "statusBarItem.remoteBackground": "#7a4500", // Chocolate
     "statusBarItem.remoteForeground": "#ffffffd0", // White
+
+    // Tabs
+    "tab.activeBackground": "#030f0e", // Night
+    "tab.activeBorder": "#00000000", // Black
+    "tab.activeBorderTop": "#00000000", // Black
     "tab.activeForeground": "#ffffff", // White
+    "tab.activeModifiedBorder": "#00000000", // Black
     "tab.border": "#ffffff30", // White
     "tab.hoverBackground": "#ffffff20", // White
     "tab.hoverForeground": "#ffffffc0", // White
+    "tab.inactiveBackground": "#051c1b", // Rich Black
     "tab.inactiveForeground": "#ffffff60", // White
-    "terminal.border": "#ffffff40", // White
-    "terminal.selectionBackground": "#ffffff40", // White
-    "terminalCursor.background": "#ffffff40", // White
-    "terminalCursor.foreground": "#ffffff", // White
-    "titleBar.activeForeground": "#ffffffd0", // White
-    "titleBar.inactiveForeground": "#ffffff60", // White
-    "tree.indentGuidesStroke": "#ffffff60", // White
 
-    // Beaver
-    "diffEditor.border": "#82756460", // Beaver
-    "editor.inactiveSelectionBackground": "#82756460", // Beaver
-    "editor.selectionBackground": "#827564a0", // Beaver
-    "editor.selectionHighlightBackground": "#827564a0", // Beaver
-    "editor.wordHighlightBackground": "#82756460", // Beaver
-    "editor.wordHighlightStrongBackground": "#827564a0", // Beaver
-    "editorGroup.border": "#82756460", // Beaver
-    "editorGutter.commentRangeForeground": "#827564", // Beaver
-    "editorRuler.foreground": "#82756460", // Beaver
-    "minimap.selectionHighlight": "#827564a0", // Beaver
-    "sideBar.border": "#82756460", // Beaver
-    "statusBar.noFolderBackground": "#827564", // Beaver
-
-    // Sepia
-    "statusBar.background": "#522e00", // Sepia
-
-    // Chocolate
-    "statusBarItem.remoteBackground": "#7a4500", // Chocolate
-
-    // Copper
-
-    // Flame
-    "diffEditor.removedTextBackground": "#e8643830", // Flame
-    // "editorError.background": "#e8643830", // Flame // Looks cleaner without this background
-    "editorError.foreground": "#e86438", // Flame
-    "editorGutter.deletedBackground": "#e86438a0", // Flame
-    "editorMarkerNavigationError.background": "#e86438", // Flame
-    "list.errorForeground": "#e86438", // Flame
-    "minimap.errorHighlight": "#e86438", // Flame
-    "minimapGutter.deletedBackground": "#e86438a0", // Flame
-    "notificationsErrorIcon.foreground": "#e86438", // Flame
-    "statusBar.debuggingBackground": "#e86438", // Flame
-
-    // UT Orange
-    "editor.findMatchBackground": "#fe8e35a0", // UT Orange
-    "editor.hoverHighlightBackground": "#fe8e3560", // UT Orange
-    "editor.rangeHighlightBackground": "#fe8e3560", // UT Orange
-    "peekViewEditor.matchHighlightBackground": "#fe8e35a0", // UT Orange
-    "peekViewEditor.matchHighlightBorder": "#fe8e35", // UT Orange
-    "peekViewResult.matchHighlightBackground": "#fe8e35a0", // UT Orange
-
-    // Dark Goldenrod
-
-    // Harvest Gold
-
-    // Selective Yellow
-    "editorGutter.modifiedBackground": "#ffba0a", // Selective Yellow
-    "editorMarkerNavigationWarning.background": "#ffba0a", // Selective Yellow
-    // "editorWarning.background": "#fe8e3530", // Selective Yellow // Looks cleaner without this background
-    "editorWarning.foreground": "#ffba0a", // Selective Yellow
-    "gitDecoration.modifiedResourceForeground": "#ffba0a", // Selective Yellow
-    "gitDecoration.stageModifiedResourceForeground": "#ffba0a", // Selective Yellow
-    "list.warningForeground": "#ffba0a", // Selective Yellow
-    "minimap.warningHighlight": "#ffba0a", // Selective Yellow
-    "minimapGutter.modifiedBackground": "#ffba0a", // Selective Yellow
-    "notificationsWarningIcon.foreground": "#ffba0a", // Selective Yellow
-
-    // Tufts Blue
-
-    // Phlox
-
-    // Other
-    "dropdown.background": "#003633",
-    "input.background": "#003633",
-    "gitDecoration.conflictingResourceForeground": "#a05fff",
-    "gitDecoration.deletedResourceForeground": "#ff7472",
-    "gitDecoration.ignoredResourceForeground": "#8c8c8c",
-    "gitDecoration.stageDeletedResourceForeground": "#ff7472",
-    "gitDecoration.submoduleResourceForeground": "#ff9b00",
-    "merge.commonContentBackground": "#282828",
-    "merge.commonHeaderBackground": "#383838",
-    "merge.incomingContentBackground": "#a05fff50",
-    "merge.incomingHeaderBackground": "#a05fffa0",
+    // Terminal
+    "terminal.ansiBlack": "#000000", // Black
     "terminal.ansiBlue": "#2472c8",
     "terminal.ansiBrightBlack": "#666666",
     "terminal.ansiBrightBlue": "#3b8eea",
@@ -2054,6 +2090,26 @@
     "terminal.ansiRed": "#cd3131",
     "terminal.ansiWhite": "#e5e5e5",
     "terminal.ansiYellow": "#e5e510",
-    "terminal.foreground": "#cccccc"
+    "terminal.border": "#ffffff40", // White
+    "terminal.foreground": "#cccccc",
+    "terminal.selectionBackground": "#ffffff40", // White
+    "terminalCursor.background": "#ffffff40", // White
+    "terminalCursor.foreground": "#ffffff", // White
+
+    // Links - Look at any extension and you should see these
+    "textLink.activeForeground": "#00ffae", // Aquamarine
+    "textLink.foreground": "#00cc8b", // Emerald
+
+    // Title Bar - Topmost bar
+    "titleBar.activeBackground": "#0c3632", // Dark Green 2
+    "titleBar.activeForeground": "#ffffffd0", // White
+    "titleBar.border": "#00000000", // Black
+    "titleBar.inactiveBackground": "#0c3632", // Dark Green 2
+    "titleBar.inactiveForeground": "#ffffff60", // White
+    "tree.indentGuidesStroke": "#ffffff60", // White
+    "walkThrough.embeddedEditorBackground": "#00000050", // Black
+
+    // Widgets - Such as the Find widget in the editor
+    "widget.shadow": "#000000" // Black
   }
 }
