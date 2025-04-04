@@ -83,8 +83,80 @@
       }
     },
     {
-      "name": "haskell variable generic-type",
-      "scope": ["variable.other.generic-type.haskell"],
+      "name": "Lavender",
+      "scope": [
+        "variable.other.generic-type.haskell",
+        "support.constant.edge",
+        "keyword.operator.instanceof.java",
+        "keyword.operator.expression.instanceof",
+        "keyword.operator.new",
+        "keyword.operator.ternary",
+        "keyword.operator.optional",
+        "keyword.operator.expression.keyof",
+        "keyword.operator.sigil.rust",
+        "keyword.operator.delete",
+        "keyword.operator.assignment.c",
+        "keyword.operator.comparison.c",
+        "keyword.operator.c",
+        "keyword.operator.increment.c",
+        "keyword.operator.decrement.c",
+        "keyword.operator.bitwise.shift.c",
+        "keyword.operator.assignment.cpp",
+        "keyword.operator.comparison.cpp",
+        "keyword.operator.cpp",
+        "keyword.operator.increment.cpp",
+        "keyword.operator.decrement.cpp",
+        "keyword.operator.bitwise.shift.cpp",
+        "punctuation.separator.c",
+        "punctuation.separator.cpp",
+        "keyword.operator.sizeof.c",
+        "keyword.operator.sizeof.cpp",
+        "keyword.operator.logical.python",
+        "keyword",
+        "keyword.operator.assignment.compound",
+        "token.package.keyword",
+        "keyword.control",
+        "storage",
+        "token.storage",
+        "keyword.operator.expression.delete",
+        "keyword.operator.expression.in",
+        "keyword.operator.expression.of",
+        "keyword.operator.expression.instanceof",
+        "keyword.operator.new",
+        "keyword.operator.expression.typeof",
+        "keyword.operator.expression.void",
+        "meta.selector",
+        "markup.italic",
+        " punctuation.definition.italic",
+        "todo.emphasis",
+        "emphasis md",
+        "markup.underline.link.markdown",
+        "markup.underline.link.image.markdown",
+        "punctuation.section.embedded.begin",
+        "punctuation.section.embedded.end",
+        "text.html.laravel-blade source.php.embedded.line.html entity.name.tag.laravel-blade",
+        "text.html.laravel-blade source.php.embedded.line.html support.constant.laravel-blade",
+        "keyword.operator.error-control.php",
+        "keyword.operator.type.php",
+        "keyword.operator.regexp.php",
+        "keyword.operator.heredoc.php",
+        "keyword.operator.nowdoc.php",
+        "token.debug-token",
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end",
+        "punctuation.section.embedded",
+        "keyword.operator.module",
+        "keyword.operator.arithmetic.go",
+        "keyword.operator.address.go",
+        "punctuation.quasi.element",
+        "support.type.texture.hlsl",
+        "support.type.sampler.hlsl",
+        "support.type.object.hlsl",
+        "support.type.object.rw.hlsl",
+        "support.type.fx.hlsl",
+        "support.type.object.hlsl",
+        "constant.regexp.xi"
+      ],
       "settings": {
         "foreground": "#c678dd"
       }
@@ -134,13 +206,6 @@
       "scope": ["entity.name.lifetime.rust"],
       "settings": {
         "foreground": "#e5c07b"
-      }
-    },
-    {
-      "name": "support.constant.edge",
-      "scope": ["support.constant.edge"],
-      "settings": {
-        "foreground": "#c678dd"
       }
     },
     {
@@ -310,13 +375,6 @@
       }
     },
     {
-      "name": "java instanceof",
-      "scope": ["keyword.operator.instanceof.java"],
-      "settings": {
-        "foreground": "#c678dd"
-      }
-    },
-    {
       "name": "operator logical",
       "scope": ["keyword.operator.logical"],
       "settings": {
@@ -415,19 +473,6 @@
       }
     },
     {
-      "name": "js/ts Keyword",
-      "scope": [
-        "keyword.operator.expression.instanceof",
-        "keyword.operator.new",
-        "keyword.operator.ternary",
-        "keyword.operator.optional",
-        "keyword.operator.expression.keyof"
-      ],
-      "settings": {
-        "foreground": "#c678dd"
-      }
-    },
-    {
       "name": "js/ts support.variable.property.process",
       "scope": ["support.variable.property.process"],
       "settings": {
@@ -446,20 +491,6 @@
       "scope": ["keyword.operator.misc.rust"],
       "settings": {
         "foreground": "#d4d4d4"
-      }
-    },
-    {
-      "name": "keyword.operator.sigil.rust",
-      "scope": ["keyword.operator.sigil.rust"],
-      "settings": {
-        "foreground": "#c678dd"
-      }
-    },
-    {
-      "name": "operator",
-      "scope": ["keyword.operator.delete"],
-      "settings": {
-        "foreground": "#c678dd"
       }
     },
     {
@@ -483,37 +514,10 @@
       }
     },
     {
-      "name": "C operator assignment",
-      "scope": [
-        "keyword.operator.assignment.c",
-        "keyword.operator.comparison.c",
-        "keyword.operator.c",
-        "keyword.operator.increment.c",
-        "keyword.operator.decrement.c",
-        "keyword.operator.bitwise.shift.c",
-        "keyword.operator.assignment.cpp",
-        "keyword.operator.comparison.cpp",
-        "keyword.operator.cpp",
-        "keyword.operator.increment.cpp",
-        "keyword.operator.decrement.cpp",
-        "keyword.operator.bitwise.shift.cpp"
-      ],
-      "settings": {
-        "foreground": "#c678dd"
-      }
-    },
-    {
       "name": "Punctuation",
       "scope": ["punctuation.separator.delimiter"],
       "settings": {
         "foreground": "#d4d4d4"
-      }
-    },
-    {
-      "name": "Other punctuation .c",
-      "scope": ["punctuation.separator.c", "punctuation.separator.cpp"],
-      "settings": {
-        "foreground": "#c678dd"
       }
     },
     {
@@ -524,13 +528,6 @@
       ],
       "settings": {
         "foreground": "#56b6c2"
-      }
-    },
-    {
-      "name": "keyword.operator.sizeof.c",
-      "scope": ["keyword.operator.sizeof.c", "keyword.operator.sizeof.cpp"],
-      "settings": {
-        "foreground": "#c678dd"
       }
     },
     {
@@ -545,13 +542,6 @@
       "scope": ["support.type.python"],
       "settings": {
         "foreground": "#56b6c2"
-      }
-    },
-    {
-      "name": "python logical",
-      "scope": ["keyword.operator.logical.python"],
-      "settings": {
-        "foreground": "#c678dd"
       }
     },
     {
@@ -596,13 +586,6 @@
       }
     },
     {
-      "name": "Compound Assignment Operators",
-      "scope": ["keyword.operator.assignment.compound"],
-      "settings": {
-        "foreground": "#c678dd"
-      }
-    },
-    {
       "name": "Compound Assignment Operators js/ts",
       "scope": [
         "keyword.operator.assignment.compound.js",
@@ -610,13 +593,6 @@
       ],
       "settings": {
         "foreground": "#56b6c2"
-      }
-    },
-    {
-      "name": "Keywords",
-      "scope": ["keyword"],
-      "settings": {
-        "foreground": "#c678dd"
       }
     },
     {
@@ -652,13 +628,6 @@
       "scope": ["import.storage.java"],
       "settings": {
         "foreground": "#e5c07b"
-      }
-    },
-    {
-      "name": "Packages",
-      "scope": ["token.package.keyword"],
-      "settings": {
-        "foreground": "#c678dd"
       }
     },
     {
@@ -720,13 +689,6 @@
       }
     },
     {
-      "name": "Keyword Control",
-      "scope": ["keyword.control"],
-      "settings": {
-        "foreground": "#c678dd"
-      }
-    },
-    {
       "name": "Control Elements",
       "scope": ["control.elements", " keyword.operator.less"],
       "settings": {
@@ -738,35 +700,6 @@
       "scope": ["keyword.other.special-method"],
       "settings": {
         "foreground": "#61afef"
-      }
-    },
-    {
-      "name": "Storage",
-      "scope": ["storage"],
-      "settings": {
-        "foreground": "#c678dd"
-      }
-    },
-    {
-      "name": "Storage JS TS",
-      "scope": ["token.storage"],
-      "settings": {
-        "foreground": "#c678dd"
-      }
-    },
-    {
-      "name": "Source Js Keyword Operator Delete,source Js Keyword Operator In,source Js Keyword Operator Of,source Js Keyword Operator Instanceof,source Js Keyword Operator New,source Js Keyword Operator Typeof,source Js Keyword Operator Void",
-      "scope": [
-        "keyword.operator.expression.delete",
-        "keyword.operator.expression.in",
-        "keyword.operator.expression.of",
-        "keyword.operator.expression.instanceof",
-        "keyword.operator.new",
-        "keyword.operator.expression.typeof",
-        "keyword.operator.expression.void"
-      ],
-      "settings": {
-        "foreground": "#c678dd"
       }
     },
     {
@@ -877,13 +810,6 @@
       }
     },
     {
-      "name": "Selector",
-      "scope": ["meta.selector"],
-      "settings": {
-        "foreground": "#c678dd"
-      }
-    },
-    {
       "name": "Headings",
       "scope": [
         "markup.heading punctuation.definition.heading",
@@ -905,24 +831,6 @@
       "scope": ["punctuation.definition.bold"],
       "settings": {
         "foreground": "#e5c07b"
-      }
-    },
-    {
-      "name": "markup Italic",
-      "scope": [
-        "markup.italic",
-        " punctuation.definition.italic",
-        "todo.emphasis"
-      ],
-      "settings": {
-        "foreground": "#c678dd"
-      }
-    },
-    {
-      "name": "emphasis md",
-      "scope": ["emphasis md"],
-      "settings": {
-        "foreground": "#c678dd"
       }
     },
     {
@@ -954,16 +862,6 @@
       }
     },
     {
-      "name": "[VSCODE-CUSTOM] Markdown Underline Link/Image",
-      "scope": [
-        "markup.underline.link.markdown",
-        "markup.underline.link.image.markdown"
-      ],
-      "settings": {
-        "foreground": "#c678dd"
-      }
-    },
-    {
       "name": "[VSCODE-CUSTOM] Markdown Link Title/Description",
       "scope": [
         "string.other.link.title.markdown",
@@ -985,16 +883,6 @@
       "scope": ["constant.character.escape"],
       "settings": {
         "foreground": "#56b6c2"
-      }
-    },
-    {
-      "name": "Embedded",
-      "scope": [
-        "punctuation.section.embedded.begin",
-        "punctuation.section.embedded.end"
-      ],
-      "settings": {
-        "foreground": "#c678dd"
       }
     },
     {
@@ -1052,24 +940,6 @@
       }
     },
     {
-      "name": "laravel blade tag",
-      "scope": [
-        "text.html.laravel-blade source.php.embedded.line.html entity.name.tag.laravel-blade"
-      ],
-      "settings": {
-        "foreground": "#c678dd"
-      }
-    },
-    {
-      "name": "laravel blade @",
-      "scope": [
-        "text.html.laravel-blade source.php.embedded.line.html support.constant.laravel-blade"
-      ],
-      "settings": {
-        "foreground": "#c678dd"
-      }
-    },
-    {
       "name": "use statement for other classes",
       "scope": [
         "support.other.namespace.use.php",
@@ -1080,20 +950,6 @@
       ],
       "settings": {
         "foreground": "#e5c07b"
-      }
-    },
-    {
-      "name": "error suppression",
-      "scope": ["keyword.operator.error-control.php"],
-      "settings": {
-        "foreground": "#c678dd"
-      }
-    },
-    {
-      "name": "php instanceof",
-      "scope": ["keyword.operator.type.php"],
-      "settings": {
-        "foreground": "#c678dd"
       }
     },
     {
@@ -1206,24 +1062,10 @@
       }
     },
     {
-      "name": "php regexp operator",
-      "scope": ["keyword.operator.regexp.php"],
-      "settings": {
-        "foreground": "#c678dd"
-      }
-    },
-    {
       "name": "php comparison",
       "scope": ["keyword.operator.comparison.php"],
       "settings": {
         "foreground": "#56b6c2"
-      }
-    },
-    {
-      "name": "php heredoc/nowdoc",
-      "scope": ["keyword.operator.heredoc.php", "keyword.operator.nowdoc.php"],
-      "settings": {
-        "foreground": "#c678dd"
       }
     },
     {
@@ -1337,34 +1179,10 @@
       }
     },
     {
-      "scope": ["token.debug-token"],
-      "settings": {
-        "foreground": "#c678dd"
-      }
-    },
-    {
-      "name": "String interpolation",
-      "scope": [
-        "punctuation.definition.template-expression.begin",
-        "punctuation.definition.template-expression.end",
-        "punctuation.section.embedded"
-      ],
-      "settings": {
-        "foreground": "#c678dd"
-      }
-    },
-    {
       "name": "Reset JavaScript string interpolation expression",
       "scope": ["meta.template.expression"],
       "settings": {
         "foreground": "#d4d4d4"
-      }
-    },
-    {
-      "name": "Import module JS",
-      "scope": ["keyword.operator.module"],
-      "settings": {
-        "foreground": "#c678dd"
       }
     },
     {
@@ -1424,16 +1242,6 @@
       }
     },
     {
-      "name": "go operator",
-      "scope": [
-        "keyword.operator.arithmetic.go",
-        "keyword.operator.address.go"
-      ],
-      "settings": {
-        "foreground": "#c678dd"
-      }
-    },
-    {
       "name": "Go package name",
       "scope": ["entity.name.package.go"],
       "settings": {
@@ -1452,13 +1260,6 @@
       "scope": ["support.constant.elm"],
       "settings": {
         "foreground": "#d19a66"
-      }
-    },
-    {
-      "name": "template literal",
-      "scope": ["punctuation.quasi.element"],
-      "settings": {
-        "foreground": "#c678dd"
       }
     },
     {
@@ -1528,20 +1329,6 @@
       }
     },
     {
-      "name": "HLSL Types",
-      "scope": [
-        "support.type.texture.hlsl",
-        "support.type.sampler.hlsl",
-        "support.type.object.hlsl",
-        "support.type.object.rw.hlsl",
-        "support.type.fx.hlsl",
-        "support.type.object.hlsl"
-      ],
-      "settings": {
-        "foreground": "#c678dd"
-      }
-    },
-    {
       "name": "types",
       "scope": ["support.type.swift", "support.type.vb.asp"],
       "settings": {
@@ -1560,13 +1347,6 @@
       "scope": ["entity.name.class.xi"],
       "settings": {
         "foreground": "#56b6c2"
-      }
-    },
-    {
-      "name": "heading 4, type, class, interface",
-      "scope": ["constant.regexp.xi"],
-      "settings": {
-        "foreground": "#c678dd"
       }
     },
     {
