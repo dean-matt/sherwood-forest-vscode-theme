@@ -2003,10 +2003,6 @@
     "editor.findMatchBackground": "#fe8e35a0",
     "editor.hoverHighlightBackground": "#fe8e3560",
     "editor.rangeHighlightBackground": "#fe8e3560",
-    // "editorWarning.background": "#fe8e3530", // Looks cleaner without this background
-    "editorWarning.foreground": "#fe8e35",
-    "list.warningForeground": "#fe8e35",
-    "minimap.warningHighlight": "#fe8e35",
     "peekViewEditor.matchHighlightBackground": "#fe8e35a0",
     "peekViewEditor.matchHighlightBorder": "#fe8e35",
     "peekViewResult.matchHighlightBackground": "#fe8e35a0",
@@ -2018,8 +2014,12 @@
     // Selective Yellow
     "editorGutter.modifiedBackground": "#ffba0a",
     "editorMarkerNavigationWarning.background": "#ffba0a",
+    // "editorWarning.background": "#fe8e3530", // Looks cleaner without this background
+    "editorWarning.foreground": "#ffba0a",
     "gitDecoration.modifiedResourceForeground": "#ffba0a",
     "gitDecoration.stageModifiedResourceForeground": "#ffba0a",
+    "list.warningForeground": "#ffba0a",
+    "minimap.warningHighlight": "#ffba0a",
     "minimapGutter.modifiedBackground": "#ffba0a",
     "notificationsWarningIcon.foreground": "#ffba0a",
 
