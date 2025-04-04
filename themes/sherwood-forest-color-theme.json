@@ -495,14 +495,8 @@
       }
     },
     {
-      "name": "php illegal.non-null-typehinted",
-      "scope": ["invalid.illegal.non-null-typehinted.php"],
-      "settings": {
-        "foreground": "#f44747"
-      }
-    },
-    {
-      "scope": ["token.error-token"],
+      "name": "Fire Engine Red",
+      "scope": ["invalid.illegal.non-null-typehinted.php", "token.error-token"],
       "settings": {
         "foreground": "#f44747"
       }
