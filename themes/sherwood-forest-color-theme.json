@@ -1777,7 +1777,7 @@
     "sideBarSectionHeader.border": "#00000000",
     "tab.activeBorder": "#00000000",
     "tab.activeBorderTop": "#00000000",
-    "tab.activeModifiedBorder": "#ff0000",
+    "tab.activeModifiedBorder": "#00000000",
     "terminal.ansiBlack": "#000000",
     "titleBar.border": "#00000000",
     "walkThrough.embeddedEditorBackground": "#00000050",
@@ -1849,7 +1849,7 @@
     "diffEditor.insertedTextBackground": "#00cc8b30",
     "editor.findMatchHighlightBackground": "#00cc8b40",
     "editorGutter.addedBackground": "#00cc8ba0",
-    "editorInfo.background": "#00cc8b30",
+    // "editorInfo.background": "#00cc8b30", // Looks cleaner without this background
     "editorInfo.foreground": "#00cc8b",
     "editorLink.activeForeground": "#00cc8b",
     "editorMarkerNavigationInfo.background": "#00cc8b",
@@ -1989,10 +1989,11 @@
 
     // Flame
     "diffEditor.removedTextBackground": "#e8643830",
-    "editorError.background": "#e8643830",
+    // "editorError.background": "#e8643830", // Looks cleaner without this background
     "editorError.foreground": "#e86438",
     "editorGutter.deletedBackground": "#e86438a0",
     "editorMarkerNavigationError.background": "#e86438",
+    "list.errorForeground": "#e86438",
     "minimap.errorHighlight": "#e86438",
     "minimapGutter.deletedBackground": "#e86438a0",
     "notificationsErrorIcon.foreground": "#e86438",
@@ -2002,8 +2003,9 @@
     "editor.findMatchBackground": "#fe8e35a0",
     "editor.hoverHighlightBackground": "#fe8e3560",
     "editor.rangeHighlightBackground": "#fe8e3560",
-    "editorWarning.background": "#fe8e3530",
+    // "editorWarning.background": "#fe8e3530", // Looks cleaner without this background
     "editorWarning.foreground": "#fe8e35",
+    "list.warningForeground": "#fe8e35",
     "minimap.warningHighlight": "#fe8e35",
     "peekViewEditor.matchHighlightBackground": "#fe8e35a0",
     "peekViewEditor.matchHighlightBorder": "#fe8e35",
@@ -2014,11 +2016,11 @@
     // Harvest Gold
 
     // Selective Yellow
-    "editorGutter.modifiedBackground": "#ffba0aa0",
+    "editorGutter.modifiedBackground": "#ffba0a",
     "editorMarkerNavigationWarning.background": "#ffba0a",
     "gitDecoration.modifiedResourceForeground": "#ffba0a",
-    "gitDecoration.stageModifiedResourceForeground": "#ffba0aa0",
-    "minimapGutter.modifiedBackground": "#ffba0aa0",
+    "gitDecoration.stageModifiedResourceForeground": "#ffba0a",
+    "minimapGutter.modifiedBackground": "#ffba0a",
     "notificationsWarningIcon.foreground": "#ffba0a",
 
     // Tufts Blue
@@ -2031,7 +2033,7 @@
     "gitDecoration.conflictingResourceForeground": "#a05fff",
     "gitDecoration.deletedResourceForeground": "#ff7472",
     "gitDecoration.ignoredResourceForeground": "#8c8c8c",
-    "gitDecoration.stageDeletedResourceForeground": "#ff7472a0",
+    "gitDecoration.stageDeletedResourceForeground": "#ff7472",
     "gitDecoration.submoduleResourceForeground": "#ff9b00",
     "merge.commonContentBackground": "#282828",
     "merge.commonHeaderBackground": "#383838",
