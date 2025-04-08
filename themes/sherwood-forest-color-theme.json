@@ -517,368 +517,289 @@
     }
   ],
   "colors": {
-    // Activity Bar - Bar that allows switching between side bar view, usually located on the far left
-    "activityBar.activeBackground": "#ffffff20",
+    // black - #000000
+    "activityBarBadge.foreground": "#000000",
+    "badge.foreground": "#000000",
+    "checkbox.background": "#000000",
+    "checkbox.border": "#00000000",
+    "diffEditor.insertedTextBorder": "#00000000",
+    "diffEditor.removedTextBorder": "#00000000",
+    "editor.findMatchHighlightBorder": "#00000000",
+    "editor.findMatchHighlightForeground": "#000000a0",
+    "editor.findRangeHighlightBorder": "#00000000", // Causes lines to appear between ranges even when transparent
+    "editor.lineHighlightBackground": "#00000000",
+    "editor.rangeHighlightBorder": "#00000000",
+    "editor.selectionHighlightBorder": "#00000000",
+    "editor.wordHighlightBorder": "#00000000",
+    "editor.wordHighlightStrongBorder": "#00000000",
+    "editorError.border": "#00000000",
+    "editorGroupHeader.border": "#00000000",
+    "editorInfo.border": "#00000000",
+    "editorOverviewRuler.border": "#00000000",
+    "editorWarning.border": "#00000000",
+    "listFilterWidget.noMatchesOutline": "#00000000",
+    "listFilterWidget.outline": "#00000000",
+    "menu.border": "#00000000",
+    "menu.selectionBorder": "#00000000",
+    "scrollbar.shadow": "#000000", // Header shadow for scrolled items
+    "sideBarSectionHeader.background": "#00000000",
+    "sideBarSectionHeader.border": "#00000000",
+    "tab.activeBorder": "#00000000",
+    "tab.activeBorderTop": "#00000000",
+    "tab.activeModifiedBorder": "#00000000",
+    "titleBar.border": "#00000000",
+    "walkThrough.embeddedEditorBackground": "#00000050",
+    "widget.shadow": "#000000", // Widgets - Such as the Find widget in the editor
+
+    // night - #030f0e
+    "breadcrumb.background": "#030f0e",
+    "editor.background": "#030f0e",
+    "editorCursor.background": "#030f0e",
+    "editorGroup.emptyBackground": "#030f0e",
+    "editorGutter.background": "#030f0e",
+    "editorOverviewRuler.background": "#030f0e",
+    "minimap.background": "#030f0e",
+    "panel.background": "#030f0e",
+    "tab.activeBackground": "#030f0e",
+
+    // rich-black - #051c1b
+    "editorGroupHeader.tabsBackground": "#051c1b",
+    "tab.inactiveBackground": "#051c1b",
+
+    // dark-green-1 - #072423
+    "debugExceptionWidget.background": "#072423",
+    "debugExceptionWidget.border": "#072423",
+    "debugToolBar.background": "#072423",
+    "debugToolBar.border": "#072423",
+    "editorHoverWidget.background": "#072423",
+    "editorMarkerNavigation.background": "#072423",
+    "editorSuggestWidget.background": "#072423",
+    "editorWidget.background": "#072423",
+    "notifications.background": "#072423",
+    "notificationToast.border": "#072423",
+    "peekViewResult.background": "#072423",
+    "peekViewTitle.background": "#072423",
+    "sideBar.background": "#072423",
+
+    // dark-green-2 - #0c3632
     "activityBar.background": "#0c3632",
+    "editorHoverWidget.border": "#0c3632",
+    "editorSuggestWidget.border": "#0c3632",
+    "menu.background": "#0c3632",
+    "notificationCenter.border": "#0c3632",
+    "notificationCenterHeader.background": "#0c3632",
+    "notifications.border": "#0c3632",
+    "peekViewEditor.background": "#0c3632",
+    "peekViewEditorGutter.background": "#0c3632",
+    "titleBar.activeBackground": "#0c3632",
+    "titleBar.inactiveBackground": "#0c3632",
+
+    // nordic noir - #003633
+    "dropdown.background": "#003633",
+    "input.background": "#003633",
+
+    // dartmouth-green - #006646
+    "merge.currentContentBackground": "#006646a0",
+
+    // sea-green - #008f62
+    "button.background": "#008f62",
+    "inputOption.activeBackground": "#008f62",
+    "list.activeSelectionBackground": "#008f62",
+    "list.focusBackground": "#008f6240",
+    "list.inactiveSelectionBackground": "#008f62",
+    "listFilterWidget.background": "#008f62",
+    "menu.selectionBackground": "#008f62",
+    "merge.currentHeaderBackground": "#008f62d0",
+    "peekViewResult.selectionBackground": "#008f62",
+    "settings.focusedRowBackground": "#008f6240",
+
+    // emerald - #00cc8b
+    "activityBarBadge.background": "#00cc8b",
+    "badge.background": "#00cc8b",
+    "breadcrumb.activeSelectionForeground": "#00cc8b",
+    "breadcrumb.focusForeground": "#00cc8b",
+    "button.hoverBackground": "#00cc8b",
+    "diffEditor.insertedTextBackground": "#00cc8b30",
+    "editor.findMatchHighlightBackground": "#00cc8b40",
+    "editorGutter.addedBackground": "#00cc8ba0",
+    // "editorInfo.background": "#00cc8b30", // Looks cleaner without this background
+    "editorInfo.foreground": "#00cc8b",
+    "editorLink.activeForeground": "#00cc8b",
+    "editorMarkerNavigationInfo.background": "#00cc8b",
+    "editorOverviewRuler.findMatchForeground": "#00cc8b40",
+    "editorSuggestWidget.highlightForeground": "#00cc8b",
+    "focusBorder": "#00cc8b",
+    "gitDecoration.addedResourceForeground": "#00cc8b90",
+    "gitDecoration.untrackedResourceForeground": "#00cc8b",
+    "inputOption.activeBorder": "#00cc8b",
+    "list.highlightForeground": "#00cc8b",
+    "minimap.findMatchHighlight": "#00cc8b40",
+    "minimapGutter.addedBackground": "#00cc8ba0",
+    "notificationsInfoIcon.foreground": "#00cc8b",
+    "panelTitle.activeBorder": "#00cc8b",
+    "peekView.border": "#00cc8b",
+    "progressBar.background": "#00cc8b",
+    "settings.modifiedItemIndicator": "#00cc8b",
+    "textLink.foreground": "#00cc8b",
+
+    // minty paradise - #00ffae
+    "textLink.activeForeground": "#00ffae",
+
+    // white - #ffffff
+    "activityBar.activeBackground": "#ffffff20",
     "activityBar.foreground": "#ffffff",
     "activityBar.inactiveForeground": "#ffffff60",
-    "activityBarBadge.background": "#00cc8b",
-    "activityBarBadge.foreground": "#000000",
-
-    // Badges - Small info labels, often little circles
-    "badge.background": "#00cc8b",
-    "badge.foreground": "#000000",
-
-    // Breadcrumbs - Show for open files at the top of the editor
-    "breadcrumb.activeSelectionForeground": "#00cc8b",
-    "breadcrumb.background": "#030f0e",
-    "breadcrumb.focusForeground": "#00cc8b",
     "breadcrumb.foreground": "#ffffff",
-
-    // Buttons - A folder opened without
-    "button.background": "#008f62",
     "button.foreground": "#ffffffd0",
-    "button.hoverBackground": "#00cc8b",
     "button.secondaryBackground": "#ffffff40",
     "button.secondaryForeground": "#ffffffd0",
     "button.secondaryHoverBackground": "#ffffff60",
-
-    // Checkboxes - Settings UI contains many of these
-    "checkbox.background": "#000000",
-    "checkbox.border": "#00000000",
     "checkbox.foreground": "#ffffffd0",
-
-    // Debug Exception Widget - Shows when debugging stops at an exception
-    "debugExceptionWidget.background": "#072423",
-    "debugExceptionWidget.border": "#072423",
-
-    // Debug Tool Bar - Shows when debugging an app, contains controls for reloading and stopping
-    "debugToolBar.background": "#072423",
-    "debugToolBar.border": "#072423",
-
-    // Diff Editor - Shows when viewing changes to a file
-    "diffEditor.border": "#82756460",
-    "diffEditor.insertedTextBackground": "#00cc8b30",
-    "diffEditor.insertedTextBorder": "#00000000",
-    "diffEditor.removedTextBackground": "#e8643830",
-    "diffEditor.removedTextBorder": "#00000000",
-
-    // Dropdowns - Settings UI contains many of these
-    "dropdown.background": "#003633",
     "dropdown.border": "#ffffff30",
     "dropdown.foreground": "#ffffffd0",
-
-    // Editor General Settings
-    "editor.background": "#030f0e",
+    "editor.findMatchBorder": "#ffffffa0",
+    "editor.findRangeHighlightBackground": "#ffffff15",
     "editor.foldBackground": "#ffffff20",
     "editor.foreground": "#ffffffc0",
-    "editor.hoverHighlightBackground": "#fe8e3560",
-    "editor.inactiveSelectionBackground": "#82756460",
-
-    // Editor Find Matches
-    "editor.findMatchBackground": "#fe8e35a0",
-    "editor.findMatchBorder": "#ffffffa0",
-    "editor.findMatchHighlightBackground": "#00cc8b40",
-    "editor.findMatchHighlightBorder": "#00000000",
-    "editor.findMatchHighlightForeground": "#000000a0",
-    "editor.findRangeHighlightBackground": "#ffffff15",
-    "editor.findRangeHighlightBorder": "#00000000", // Causes lines to appear between ranges even when transparent
-
-    // Editor Cursor
-    "editorCursor.background": "#030f0e",
-    "editorCursor.foreground": "#ffffffa0",
-
-    // Editor Selection
-    "editor.lineHighlightBackground": "#00000000",
     "editor.lineHighlightBorder": "#ffffff30",
-    "editor.rangeHighlightBackground": "#fe8e3560",
-    "editor.rangeHighlightBorder": "#00000000",
-    "editor.selectionBackground": "#827564a0",
-    "editor.selectionHighlightBackground": "#827564a0",
-    "editor.selectionHighlightBorder": "#00000000",
-    "editor.wordHighlightBackground": "#82756460",
-    "editor.wordHighlightBorder": "#00000000",
-    "editor.wordHighlightStrongBackground": "#827564a0",
-    "editor.wordHighlightStrongBorder": "#00000000",
-    "editorWhitespace.foreground": "#ffffff30",
-
-    // Editor Squigglies
-    // "editorError.background": "#e8643830", // Looks cleaner without this background
-    "editorError.border": "#00000000",
-    "editorError.foreground": "#e86438",
-    // "editorInfo.background": "#00cc8b30", // Looks cleaner without this background
-    "editorInfo.border": "#00000000",
-    "editorInfo.foreground": "#00cc8b",
-    // "editorWarning.background": "#fe8e3530", // Looks cleaner without this background
-    "editorWarning.border": "#00000000",
-    "editorWarning.foreground": "#ffba0a",
-
-    // Editor Suggest Widget - aka Intellisense or Autocompletion
-    "editorSuggestWidget.background": "#072423",
-    "editorSuggestWidget.border": "#0c3632",
-    "editorSuggestWidget.foreground": "#ffffffc0",
-    "editorSuggestWidget.highlightForeground": "#00cc8b",
-    "editorSuggestWidget.selectedBackground": "#ffffff60",
-
-    // Editor Brackets
     "editorBracketMatch.background": "#ffffff30",
     "editorBracketMatch.border": "#ffffff60",
-
-    // Editor Hover Widget - Such as hovering over a variable to see more info
-    "editorHoverWidget.background": "#072423",
-    "editorHoverWidget.border": "#0c3632",
-    "editorHoverWidget.foreground": "#ffffffc0",
-
-    // Editor Gutter - Located to the right of the line numbers
-    "editorGutter.addedBackground": "#00cc8ba0",
-    "editorGutter.background": "#030f0e",
-    "editorGutter.commentRangeForeground": "#827564",
-    "editorGutter.deletedBackground": "#e86438a0",
+    "editorCodeLens.foreground": "#ffffffc0",
+    "editorCursor.foreground": "#ffffffa0",
     "editorGutter.foldingControlForeground": "#ffffffc0",
-    "editorGutter.modifiedBackground": "#ffba0a",
-
-    // Editor Links - Such as holding Ctrl or Cmd and hovering over a class
-    "editorLink.activeForeground": "#00cc8b",
-
-    // Editor Marker Navigation - Such as hovering over an error and clicking "View Problem"
-    "editorMarkerNavigation.background": "#072423",
-    "editorMarkerNavigationError.background": "#e86438",
-    "editorMarkerNavigationInfo.background": "#00cc8b",
-    "editorMarkerNavigationWarning.background": "#ffba0a",
-
-    // Editor Overview Ruler - Located on the far right of the editor, contains the scrollbar and markers for various things in the editor
-    "editorOverviewRuler.background": "#030f0e",
-    "editorOverviewRuler.border": "#00000000",
-    "editorOverviewRuler.findMatchForeground": "#00cc8b40",
-
-    // Editor Indentation Guides - Show whenever things are indented
+    "editorHoverWidget.foreground": "#ffffffc0",
     "editorIndentGuide.activeBackground1": "#ffffffa0",
     "editorIndentGuide.background1": "#ffffff30",
-
-    // Editor Line Numbers
     "editorLineNumber.activeForeground": "#ffffff",
     "editorLineNumber.foreground": "#ffffff60",
-
-    // Code Lens
-    "editorCodeLens.foreground": "#ffffffc0",
-
-    // Editor Groups
-    "editorGroup.border": "#82756460",
-    "editorGroup.emptyBackground": "#030f0e",
-    "editorGroupHeader.border": "#00000000",
-    "editorGroupHeader.tabsBackground": "#051c1b",
-
-    // Rulers - Configured in settings.json via "editor.rulers"
-    "editorRuler.foreground": "#82756460",
-
-    // Editor Widgets - Such as Find, only used if they are not overridden
-    "editorWidget.background": "#072423",
+    "editorSuggestWidget.foreground": "#ffffffc0",
+    "editorSuggestWidget.selectedBackground": "#ffffff60",
+    "editorWhitespace.foreground": "#ffffff30",
     "editorWidget.foreground": "#ffffffc0",
     "editorWidget.resizeBorder": "#ffffff30",
-
-    // General
-    "focusBorder": "#00cc8b",
     "foreground": "#ffffffc0",
     "icon.foreground": "#ffffffa0",
-
-    // Git Decorations - Such as when a file is added, modified, or deleted
-    "gitDecoration.addedResourceForeground": "#00cc8b90",
-    "gitDecoration.conflictingResourceForeground": "#a05fff",
-    "gitDecoration.deletedResourceForeground": "#ff7472",
-    "gitDecoration.ignoredResourceForeground": "#8c8c8c",
-    "gitDecoration.modifiedResourceForeground": "#ffba0a",
-    "gitDecoration.stageDeletedResourceForeground": "#ff7472",
-    "gitDecoration.stageModifiedResourceForeground": "#ffba0a",
-    "gitDecoration.submoduleResourceForeground": "#ff9b00",
-    "gitDecoration.untrackedResourceForeground": "#00cc8b",
-
-    // Inputs - Such as in the Search panel or settings UI
-    "input.background": "#003633",
     "input.border": "#ffffff30",
     "input.foreground": "#ffffffd0",
     "input.placeholderForeground": "#ffffff60",
-    "inputOption.activeBackground": "#008f62",
-    "inputOption.activeBorder": "#00cc8b",
     "inputOption.activeForeground": "#ffffffd0",
-
-    // Lists - Such as the explorer view
-    "list.activeSelectionBackground": "#008f62",
     "list.activeSelectionForeground": "#ffffff",
     "list.dropBackground": "#ffffff20",
-    "list.errorForeground": "#e86438",
-    "list.focusBackground": "#008f6240",
     "list.focusForeground": "#ffffff",
-    "list.highlightForeground": "#00cc8b",
     "list.hoverBackground": "#ffffff20",
     "list.hoverForeground": "#ffffff",
-    "list.inactiveSelectionBackground": "#008f62",
     "list.inactiveSelectionForeground": "#ffffff",
-    "list.warningForeground": "#ffba0a",
-    "listFilterWidget.background": "#008f62",
-    "listFilterWidget.noMatchesOutline": "#00000000",
-    "listFilterWidget.outline": "#00000000",
-
-    // Menus - Such as File or Edit, may only show on Windows
-    "menu.background": "#0c3632",
-    "menu.border": "#00000000",
     "menu.foreground": "#ffffffd0",
-    "menu.selectionBackground": "#008f62",
-    "menu.selectionBorder": "#00000000",
     "menu.selectionForeground": "#ffffffd0",
     "menu.separatorBackground": "#ffffff40",
     "menubar.selectionBackground": "#ffffff20",
     "menubar.selectionForeground": "#ffffffd0",
-
-    // Merge Conflicts
-    "merge.commonContentBackground": "#282828",
-    "merge.commonHeaderBackground": "#383838",
-    "merge.currentContentBackground": "#006646a0",
-    "merge.currentHeaderBackground": "#008f62d0",
-    "merge.incomingContentBackground": "#a05fff50",
-    "merge.incomingHeaderBackground": "#a05fffa0",
-
-    // Minimap - If enabled shows on the right side of the editor
-    "minimap.background": "#030f0e",
-    "minimap.errorHighlight": "#e86438",
-    "minimap.findMatchHighlight": "#00cc8b40",
-    "minimap.selectionHighlight": "#827564a0",
-    "minimap.warningHighlight": "#ffba0a",
-    "minimapGutter.addedBackground": "#00cc8ba0",
-    "minimapGutter.deletedBackground": "#e86438a0",
-    "minimapGutter.modifiedBackground": "#ffba0a",
-
-    // Notifications
-    "notificationCenter.border": "#0c3632",
-    "notificationCenterHeader.background": "#0c3632",
     "notificationCenterHeader.foreground": "#ffffffd0",
-    "notifications.background": "#072423",
-    "notifications.border": "#0c3632",
     "notifications.foreground": "#ffffffd0",
-    "notificationsErrorIcon.foreground": "#e86438",
-    "notificationsInfoIcon.foreground": "#00cc8b",
-    "notificationsWarningIcon.foreground": "#ffba0a",
-    "notificationToast.border": "#072423",
-
-    // Panels - Such as Terminal or Output
-    "panel.background": "#030f0e",
     "panel.border": "#ffffff40",
     "panelSection.border": "#ffffff40",
-    "panelTitle.activeBorder": "#00cc8b",
     "panelTitle.activeForeground": "#ffffffd0",
     "panelTitle.inactiveForeground": "#ffffff80",
-
-    // Peek View - Right click on something you want to peek
-    "peekView.border": "#00cc8b",
-    "peekViewEditor.background": "#0c3632",
-    "peekViewEditor.matchHighlightBackground": "#fe8e35a0",
-    "peekViewEditor.matchHighlightBorder": "#fe8e35",
-    "peekViewEditorGutter.background": "#0c3632",
-    "peekViewResult.background": "#072423",
     "peekViewResult.fileForeground": "#ffffffc0",
     "peekViewResult.lineForeground": "#ffffffc0",
-    "peekViewResult.matchHighlightBackground": "#fe8e35a0",
-    "peekViewResult.selectionBackground": "#008f62",
     "peekViewResult.selectionForeground": "#ffffff",
-    "peekViewTitle.background": "#072423",
     "peekViewTitleDescription.foreground": "#ffffff60",
     "peekViewTitleLabel.foreground": "#ffffffc0",
-
-    // Picker Group - Such as Command Palette
     "pickerGroup.border": "#ffffff30",
     "pickerGroup.foreground": "#ffffff60",
-
-    // Progress Bars
-    "progressBar.background": "#00cc8b",
-
-    // Header shadow for scrolled items
-    "scrollbar.shadow": "#000000",
-
-    // Scrollbar Slider - aka handle for scrolling
     "scrollbarSlider.activeBackground": "#ffffff60",
     "scrollbarSlider.background": "#ffffff20",
     "scrollbarSlider.hoverBackground": "#ffffff40",
-
-    // Non-Editor Text Selection - Such as in the settings UI
     "selection.background": "#ffffff40",
-
-    // Settings - See settings UI for these
-    "settings.focusedRowBackground": "#008f6240",
     "settings.headerBorder": "#ffffff30",
     "settings.headerForeground": "#ffffff",
-    "settings.modifiedItemIndicator": "#00cc8b",
     "settings.settingsHeaderHoverForeground": "#ffffff",
-
-    // Side Bar - Containers for views like Explorer or Source Control
-    "sideBar.background": "#072423",
-    "sideBar.border": "#82756460",
     "sideBar.dropBackground": "#ffffff10",
     "sideBar.foreground": "#ffffffc0",
-    "sideBarSectionHeader.background": "#00000000",
-    "sideBarSectionHeader.border": "#00000000",
     "sideBarSectionHeader.foreground": "#ffffff",
     "sideBarTitle.foreground": "#ffffff",
-
-    // Status Bar - Bottommost bar
-    "statusBar.background": "#522e00",
-    "statusBar.debuggingBackground": "#e86438",
     "statusBar.debuggingForeground": "#ffffffd0",
     "statusBar.foreground": "#ffffffd0",
-    "statusBar.noFolderBackground": "#827564",
     "statusBar.noFolderForeground": "#ffffffd0",
     "statusBarItem.activeBackground": "#FFFFFF25",
     "statusBarItem.hoverBackground": "#ffffff20",
-    "statusBarItem.remoteBackground": "#7a4500",
     "statusBarItem.remoteForeground": "#ffffffd0",
-
-    // Tabs
-    "tab.activeBackground": "#030f0e",
-    "tab.activeBorder": "#00000000",
-    "tab.activeBorderTop": "#00000000",
     "tab.activeForeground": "#ffffff",
-    "tab.activeModifiedBorder": "#00000000",
     "tab.border": "#ffffff30",
     "tab.hoverBackground": "#ffffff20",
     "tab.hoverForeground": "#ffffffc0",
-    "tab.inactiveBackground": "#051c1b",
     "tab.inactiveForeground": "#ffffff60",
-
-    // Terminal
-    "terminal.ansiBlack": "#000000",
-    "terminal.ansiBlue": "#2472c8",
-    "terminal.ansiBrightBlack": "#666666",
-    "terminal.ansiBrightBlue": "#3b8eea",
-    "terminal.ansiBrightCyan": "#29b8db",
-    "terminal.ansiBrightGreen": "#23d18b",
-    "terminal.ansiBrightMagenta": "#d670d6",
-    "terminal.ansiBrightRed": "#f14c4c",
-    "terminal.ansiBrightWhite": "#e5e5e5",
-    "terminal.ansiBrightYellow": "#f5f543",
-    "terminal.ansiCyan": "#11a8cd",
-    "terminal.ansiGreen": "#0dbc79",
-    "terminal.ansiMagenta": "#bc3fbc",
-    "terminal.ansiRed": "#cd3131",
-    "terminal.ansiWhite": "#e5e5e5",
-    "terminal.ansiYellow": "#e5e510",
-    "terminal.border": "#ffffff40",
-    "terminal.foreground": "#cccccc",
-    "terminal.selectionBackground": "#ffffff40",
-    "terminalCursor.background": "#ffffff40",
-    "terminalCursor.foreground": "#ffffff",
-
-    // Links - Look at any extension and you should see these
-    "textLink.activeForeground": "#00ffae",
-    "textLink.foreground": "#00cc8b",
-
-    // Title Bar - Topmost bar
-    "titleBar.activeBackground": "#0c3632",
     "titleBar.activeForeground": "#ffffffd0",
-    "titleBar.border": "#00000000",
-    "titleBar.inactiveBackground": "#0c3632",
     "titleBar.inactiveForeground": "#ffffff60",
     "tree.indentGuidesStroke": "#ffffff60",
-    "walkThrough.embeddedEditorBackground": "#00000050",
 
-    // Widgets - Such as the Find widget in the editor
-    "widget.shadow": "#000000"
+    // beaver - #827564
+    "diffEditor.border": "#82756460",
+    "editor.inactiveSelectionBackground": "#82756460",
+    "editor.selectionBackground": "#827564a0",
+    "editor.selectionHighlightBackground": "#827564a0",
+    "editor.wordHighlightBackground": "#82756460",
+    "editor.wordHighlightStrongBackground": "#827564a0",
+    "editorGroup.border": "#82756460",
+    "editorGutter.commentRangeForeground": "#827564",
+    "editorRuler.foreground": "#82756460",
+    "minimap.selectionHighlight": "#827564a0",
+    "sideBar.border": "#82756460",
+    "statusBar.noFolderBackground": "#827564",
+
+    // light coral - #ff7472
+    "gitDecoration.deletedResourceForeground": "#ff7472",
+    "gitDecoration.stageDeletedResourceForeground": "#ff7472",
+
+    // flame - #e86438
+    "diffEditor.removedTextBackground": "#e8643830",
+    // "editorError.background": "#e8643830", // Looks cleaner without this background
+    "editorError.foreground": "#e86438",
+    "editorGutter.deletedBackground": "#e86438a0",
+    "editorMarkerNavigationError.background": "#e86438",
+    "list.errorForeground": "#e86438",
+    "minimap.errorHighlight": "#e86438",
+    "minimapGutter.deletedBackground": "#e86438a0",
+    "notificationsErrorIcon.foreground": "#e86438",
+    "statusBar.debuggingBackground": "#e86438",
+
+    // vitamin c - #ff9b00
+    "gitDecoration.submoduleResourceForeground": "#ff9b00",
+
+    // ut orange - #fe8e35
+    "editor.hoverHighlightBackground": "#fe8e3560",
+    "editor.findMatchBackground": "#fe8e35a0",
+    "editor.rangeHighlightBackground": "#fe8e3560",
+    // "editorWarning.background": "#fe8e3530", // Looks cleaner without this background
+    "peekViewEditor.matchHighlightBackground": "#fe8e35a0",
+    "peekViewEditor.matchHighlightBorder": "#fe8e35",
+    "peekViewResult.matchHighlightBackground": "#fe8e35a0",
+
+    // selective yellow - #ffba0a
+    "editorWarning.foreground": "#ffba0a",
+    "editorGutter.modifiedBackground": "#ffba0a",
+    "editorMarkerNavigationWarning.background": "#ffba0a",
+    "gitDecoration.modifiedResourceForeground": "#ffba0a",
+    "gitDecoration.stageModifiedResourceForeground": "#ffba0a",
+    "list.warningForeground": "#ffba0a",
+    "minimap.warningHighlight": "#ffba0a",
+    "minimapGutter.modifiedBackground": "#ffba0a",
+    "notificationsWarningIcon.foreground": "#ffba0a",
+
+    // heliotrope - #a05fff
+    "gitDecoration.conflictingResourceForeground": "#a05fff",
+    "merge.incomingContentBackground": "#a05fff50",
+    "merge.incomingHeaderBackground": "#a05fffa0",
+
+    // gray
+    "gitDecoration.ignoredResourceForeground": "#8c8c8c",
+    "merge.commonContentBackground": "#282828",
+    "merge.commonHeaderBackground": "#383838",
+
+    // sepia - #522e00
+    "statusBar.background": "#522e00",
+
+    // chocolate - #7a4500
+    "statusBarItem.remoteBackground": "#7a4500"
   }
 }
