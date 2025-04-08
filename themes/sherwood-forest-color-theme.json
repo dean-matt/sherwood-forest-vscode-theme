@@ -640,6 +640,7 @@
     "peekView.border": "#00cc8b",
     "progressBar.background": "#00cc8b",
     "settings.modifiedItemIndicator": "#00cc8b",
+    "textBlockQuote.border": "#00cc8b",
     "textLink.foreground": "#00cc8b",
 
     // minty paradise - #00ffae
@@ -729,6 +730,7 @@
     "tab.hoverBackground": "#ffffff20",
     "tab.hoverForeground": "#ffffffc0",
     "tab.inactiveForeground": "#ffffff60",
+    "textBlockQuote.background": "#ffffff20",
     "titleBar.activeForeground": "#ffffffd0",
     "titleBar.inactiveForeground": "#ffffff60",
     "tree.indentGuidesStroke": "#ffffff60",
