@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SherwoodForest.demo
+namespace csproj
 {
   public class CSharp
   {
     private readonly string _testField;
 
-    public string TestProperty { get; set; }
+    public string? TestProperty { get; set; }
 
     public string test = "hello";
 
