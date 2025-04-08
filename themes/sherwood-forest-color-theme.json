@@ -719,7 +719,7 @@
     "listFilterWidget.outline": "#00000000",
 
     // Menus - Such as File or Edit, may only show on Windows
-    "menu.background": "#ff0000",
+    "menu.background": "#0c3632",
     "menu.border": "#00000000",
     "menu.foreground": "#ffffffd0",
     "menu.selectionBackground": "#008f62",
