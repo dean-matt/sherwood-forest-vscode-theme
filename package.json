@@ -2,7 +2,7 @@
   "name": "sherwood-forest",
   "displayName": "Sherwood Forest",
   "description": "Nature inspired theme",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "icon": "images/Sherwood_Forest_Icon.png",
   "engines": {
     "vscode": "^1.67.0"
@@ -12,11 +12,6 @@
   ],
   "contributes": {
     "themes": [
-      {
-        "label": "Sherwood Forest (Legacy)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/sherwood-forest-legacy-color-theme.json"
-      },
       {
         "label": "Sherwood Forest",
         "uiTheme": "vs-dark",
