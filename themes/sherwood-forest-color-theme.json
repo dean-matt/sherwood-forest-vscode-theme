@@ -758,6 +758,9 @@
     "sideBar.border": "#82756460",
     "statusBar.noFolderBackground": "#827564",
 
+    // red - #ff0000
+    "editorError.foreground": "#ff0000",
+
     // light coral - #ff7472
     "gitDecoration.deletedResourceForeground": "#ff7472",
     "gitDecoration.stageDeletedResourceForeground": "#ff7472",
@@ -765,7 +768,6 @@
     // flame - #e86438
     "diffEditor.removedTextBackground": "#e8643830",
     // "editorError.background": "#e8643830", // Looks cleaner without this background
-    "editorError.foreground": "#e86438",
     "editorGutter.deletedBackground": "#e86438a0",
     "editorGutter.deletedSecondaryBackground": "#e86438a0",
     "editorMarkerNavigationError.background": "#e86438",

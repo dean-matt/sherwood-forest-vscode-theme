@@ -28,6 +28,7 @@ secondary {
   --sepia: #522e00;
   --chocolate: #7a4500;
   --copper: #b08246;
+  --red: #ff0000;
   --flame: #e86438;
   --ut-orange: #fe8e35;
   --dark-goldenrod: #b38207;
