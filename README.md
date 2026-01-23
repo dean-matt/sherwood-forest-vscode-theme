@@ -2,7 +2,9 @@
 
 A dark VS Code color theme that is based around forest colors.
 
-### Primary Palette:
+## Color Palette
+
+### Primary:
 
 ```css
 primary {
@@ -20,7 +22,7 @@ primary {
 
 ![Primary Palette](images/Summer_Palette_Primary.png)
 
-### Secondary Palette:
+### Secondary:
 
 ```css
 secondary {
@@ -41,7 +43,7 @@ secondary {
 
 ![Secondary Palette](images/Summer_Palette_Secondary.png)
 
-### Shading Palette
+### Shading
 
 ```css
 shading {
