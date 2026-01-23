@@ -629,7 +629,8 @@
     "button.hoverBackground": "#00cc8b",
     "diffEditor.insertedTextBackground": "#00cc8b30",
     "editor.findMatchHighlightBackground": "#00cc8b40",
-    "editorGutter.addedBackground": "#00cc8ba0",
+    "editorGutter.addedBackground": "#00cc8b",
+    "editorGutter.addedSecondaryBackground": "#00cc8b",
     // "editorInfo.background": "#00cc8b30", // Looks cleaner without this background
     "editorInfo.foreground": "#00cc8b",
     "editorLink.activeForeground": "#00cc8b",
@@ -637,7 +638,7 @@
     "editorOverviewRuler.findMatchForeground": "#00cc8b40",
     "editorSuggestWidget.highlightForeground": "#00cc8b",
     "focusBorder": "#00cc8b",
-    "gitDecoration.addedResourceForeground": "#00cc8b90",
+    "gitDecoration.addedResourceForeground": "#00cc8b",
     "gitDecoration.untrackedResourceForeground": "#00cc8b",
     "inputOption.activeBorder": "#00cc8b",
     "list.highlightForeground": "#00cc8b",
@@ -766,6 +767,7 @@
     // "editorError.background": "#e8643830", // Looks cleaner without this background
     "editorError.foreground": "#e86438",
     "editorGutter.deletedBackground": "#e86438a0",
+    "editorGutter.deletedSecondaryBackground": "#e86438a0",
     "editorMarkerNavigationError.background": "#e86438",
     "list.errorForeground": "#e86438",
     "minimap.errorHighlight": "#e86438",
@@ -793,7 +795,8 @@
     "notificationsWarningIcon.foreground": "#ffba0a",
 
     // tufts blue - #178ad1
-    "editorGutter.modifiedBackground": "#178ad1",
+    "editorGutter.modifiedBackground": "#178ad1a0",
+    "editorGutter.modifiedSecondaryBackground": "#178ad1a0",
     "gitDecoration.modifiedResourceForeground": "#178ad1",
     "gitDecoration.stageModifiedResourceForeground": "#178ad1",
     "minimapGutter.modifiedBackground": "#178ad1",
