@@ -350,10 +350,7 @@
     },
     {
       "name": "Emerald",
-      "scope": [
-        "markup.underline.link.image.markdown",
-        "markup.underline.link.markdown"
-      ],
+      "scope": ["markup.underline.link.image.markdown", "markup.underline.link.markdown"],
       "settings": {
         "foreground": "#00cc8b"
       }
@@ -790,14 +787,16 @@
 
     // selective yellow - #ffba0a
     "editorWarning.foreground": "#ffba0a",
-    "editorGutter.modifiedBackground": "#ffba0a",
     "editorMarkerNavigationWarning.background": "#ffba0a",
-    "gitDecoration.modifiedResourceForeground": "#ffba0a",
-    "gitDecoration.stageModifiedResourceForeground": "#ffba0a",
     "list.warningForeground": "#ffba0a",
     "minimap.warningHighlight": "#ffba0a",
-    "minimapGutter.modifiedBackground": "#ffba0a",
     "notificationsWarningIcon.foreground": "#ffba0a",
+
+    // tufts blue - #178ad1
+    "editorGutter.modifiedBackground": "#178ad1",
+    "gitDecoration.modifiedResourceForeground": "#178ad1",
+    "gitDecoration.stageModifiedResourceForeground": "#178ad1",
+    "minimapGutter.modifiedBackground": "#178ad1",
 
     // heliotrope - #a05fff
     "gitDecoration.conflictingResourceForeground": "#a05fff",
