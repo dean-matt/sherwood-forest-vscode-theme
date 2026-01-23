@@ -2,6 +2,28 @@
 
 A dark VS Code color theme that is based around forest colors.
 
+## Screenshots
+
+### Markdown
+
+![Markdown Example](images/examples/Markdown.png)
+
+### C#
+
+![C# Example](images/examples/C-Sharp.png)
+
+### TypeScript
+
+![TypeScript Example](images/examples/TypeScript.png)
+
+### HTML
+
+![HTML Example](images/examples/HTML.png)
+
+### Settings UI
+
+![Settings UI Example](images/examples/Settings-UI.png)
+
 ## Color Palette
 
 ### Primary:
