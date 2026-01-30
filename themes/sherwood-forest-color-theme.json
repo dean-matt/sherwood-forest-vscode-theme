@@ -614,7 +614,7 @@
     "inputOption.activeBackground": "#008f62",
     "list.activeSelectionBackground": "#008f62",
     "list.focusBackground": "#008f6240",
-    "list.inactiveSelectionBackground": "#008f62",
+    "list.inactiveSelectionBackground": "#008f6280",
     "listFilterWidget.background": "#008f62",
     "menu.selectionBackground": "#008f62",
     "merge.currentHeaderBackground": "#008f62d0",
